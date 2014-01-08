@@ -1,0 +1,27 @@
+<h1 style="margin: 0px 0px 10px 0px;">Add New Value To <%= @field.name %> Field</h1>
+
+
+
+<% remote_form_for :field_value, @field_value, :url => { :action => "create_popup", :field_id => @field, :counter => params[:counter], :control => params[:control] } do |f| -%>
+  <input type="image" src="/sitepics/pix.gif" style="display: none;" />
+
+  <table class="form">
+    <tr>
+      <td class="label">Value:</td>
+      <td class="field">
+        <%= f.text_field :value, :class => "f-input" %>
+        <div class="error" id="error_add_value">&nbsp;<div>
+      </td>
+    </tr>
+  </table>
+
+  <p>
+    <%= submit_to_remote "submit", "Submit", :url => { :action => "create_popup", :field_id => @field, :counter => params[:counter], :control => params[:control] } %>
+    &nbsp;&nbsp;&nbsp;
+    <input type="reset" value="Cancel" class="jqmClose" />
+  </p>
+  <div class="clear"></div>
+
+<% end -%>
+
+<a title="Close" class="jqmClose popupClose" href="#"></a>

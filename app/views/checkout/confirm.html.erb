@@ -1,0 +1,80 @@
+
+<div class="contentClearTextBlock">
+  <h1>ORDER CONFIRMATION</h1>
+  <p>Step 2 of 2<p>
+</div>
+
+<div class="contentClearTextBlock">
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td valign="top" align="left" width="50%">
+        <b>BILLING INFO:</b><br /><br />
+        <%=h @billing_address.name %><br />
+        <%=h @billing_address.company %><br />
+        <%=h @billing_address.address1 %>
+        <% unless @billing_address.address2.blank? -%>
+          <br /><%=h @billing_address.address2 %>
+        <% end -%><br />
+        <%=h @billing_address.city %>, <%=h @billing_address.state %>, <%=h @billing_address.zip %><br />
+        Phone: <%=h @billing_address.phone %><br />
+        Fax: <%=h @billing_address.fax %><br />
+        E-mail: <%=h @current_order.email %><br />
+        <%= link_to "Edit", :action => "edit", :anchor => "billing_info" %>
+      </td>
+      
+      <td valign="top" align="left" width="50%">
+        <b>SHIPPING INFO:</b><br /><br />
+        <%=h @shipping_address.name %><br />
+        <%=h @shipping_address.company %><br />
+        <%=h @shipping_address.address1 %>
+        <% unless @shipping_address.address2.blank? -%>
+          <br /><%=h @shipping_address.address2 %>
+        <% end -%><br />
+        <%=h @shipping_address.city %>, <%=h @shipping_address.state %>, <%=h @shipping_address.zip %><br />
+        Phone: <%=h @shipping_address.phone %><br />
+        Fax: <%=h @shipping_address.fax %><br />
+        Shipping method: <%=h @current_order.display_delivery_method %> - <b><%= display_price_or_free(@current_order.delivery_price) %></b><br />
+        <%= link_to "Edit", :action => "edit", :anchor => "shipping_info" %>
+      </td>
+    </tr>
+    
+    <tr>
+      <td valign="top" align="left" style="padding-top: 30px;">
+        <b>PAYMENT INFO:</b><br /><br />
+        Payment method: <%=h @current_order.display_payment_method %><br />
+        <% unless @credit_card.blank? -%>
+          Credit Card Type: <%=h @credit_card.display_cc_type %><br />
+          Card Number: <%=h @credit_card.number %><br />
+          Card Security Code (CSC): <%=h @credit_card.verification_value %><br />
+          Expiration Date: <%=h @credit_card.expires_on.strftime("%Y-%m") %><br />
+          Name On Card: <%=h @credit_card.name %><br />
+          Customer Service Phone: <%=h @credit_card.service_phone %><br />
+        <% end -%>
+        <%= link_to "Edit", :action => "edit", :anchor => "payment_info" %>
+      </td>
+      
+      <td valign="top" align="left" style="padding-top: 30px;">
+        <% unless @current_order.instructions.blank? -%>
+          <b>ADDITIONAL INFO:</b><br /><br />
+          Comments: <%=h @current_order.instructions %><br />
+          <%= link_to "Edit", :action => "edit", :anchor => "additional_info" %>
+        <% else -%>
+          &nbsp;
+        <% end -%>
+      </td>
+    </tr>
+    
+  </table>
+  
+  <div id="cart" style="padding-top: 30px;">
+    <%= render :partial => "cart" %>
+  </div>
+  
+  <div class="buttonDiv">
+    <center>
+      <%= link_to '', { :action => :confirm_submit }, :class => 'button btCheckout' %>
+    </center>
+  </div>
+
+</div>

@@ -1,0 +1,54 @@
+
+<% remote_form_for :form_field, @form_field, :url => url do |f| -%>
+  <%= f.hidden_field :type_id %>
+  
+  <!-- %= debug @form_field % -->
+  
+  <p><b><%= caption %>:</b></p>
+  <table class="form">
+    <% if @form_field.new_record? -%>
+      <tr><td><%= f.radio_button :control, "group" %><label for="form_field_control_group"> Field Group</label></td></tr>
+      <tr><td><%= f.radio_button :control, "text_field" %><label for="form_field_control_text_field"> Text Field</label></td></tr>
+      <tr><td><%= f.radio_button :control, "text_area" %><label for="form_field_control_text_area"> Text Area</label></td></tr>
+      
+      <% unless @source_fields.blank? -%>
+        <% unless @source_fields["select"].blank? -%>
+          <tr><td><%= f.radio_button :control, "select" %><label for="form_field_control_select"> Dropdown</label></td></tr>
+        <% end -%>
+        
+        <% unless @source_fields["radio"].blank? -%>
+          <tr><td><%= f.radio_button :control, "radio" %><label for="form_field_control_radio"> Radio</label></td></tr>
+        <% end -%>
+        
+        <% unless @source_fields["multiple"].blank? -%>
+          <tr><td><%= f.radio_button :control, "multiple" %><label for="form_field_control_multiple"> Checkboxes</label></td></tr>
+        <% end -%>
+        
+        <tr><td><%= f.error_message_on("control") %></td></tr>
+      <% end -%>
+
+      <tr id="tr_source" <% unless ["select", "radio", "multiple"].include?(@form_field.control) %>style="display: none;"<% end %>>
+        <td style="padding-top: 20px;">Source Field:<br />
+          <%= f.select "field_id", [], { :include_blank => "Please Select..." }, :class => "f-input" %>
+          <%= f.error_message_on("field_id") %>
+        </td>
+      </tr>
+    <% end -%>
+    
+    <tr id="tr_name">
+      <td style="padding-top: 20px;">Name:<br />
+        <%= f.text_field :name, :class => "f-input" %>
+        <%= f.error_message_on("name") %>
+      </td>
+    </tr>
+  
+    <tr>
+      <td style="padding-top: 20px;">
+        <%= f.submit "Submit" %>
+        &nbsp;&nbsp;
+        <%= button_to_remote "Cancel", :url => { :action => "new", :type_id => @type  } %>
+      </td>
+    </tr>
+  </table>
+  
+<% end -%>

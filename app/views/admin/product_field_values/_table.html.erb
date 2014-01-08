@@ -1,0 +1,35 @@
+<% if @field_values_count > 0 -%>
+  <p><%= pluralize(@field_values_count, "value") %> found</p>
+
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th>Value</th>
+        <th>Pos.</th>
+        <th>Actions</th>
+        <% if sort_allowed? -%>
+          <th>&nbsp;</th>
+        <% end -%>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for field_value in @field_values -%>
+        <tr id="items_table_<%= field_value.id %>">
+          <td><%=h field_value.value %></td>
+          <td class="pos a-center"><%= field_value.position %></td>
+          <td style="width: 45px;">
+            <%= link_to "", { :action => "edit", :id => field_value }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "delete", :id => field_value }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? -%>
+            <td class="dragHandle">[drag]</td>
+          <% end -%>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

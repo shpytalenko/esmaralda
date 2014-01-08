@@ -1,0 +1,43 @@
+
+<div class="jqmWindow" id="popupDiv"></div>
+
+<% content_for :head do -%>
+  <% javascript_tag do -%>
+
+    var myShow=function(hash){ hash.w.css('display', 'none'); };
+    var myLoad=function(hash){ hash.w.fadeIn("slow"); };
+    var myHide=function(hash){
+      //hash.w.hide('slow', function(){
+      hash.w.fadeOut('slow', function(){
+        hash.o.remove();
+      });
+    };
+
+    jQuery(document).ready(function(){
+      jQuery('#popupDiv').jqm({
+        ajax: "@href",
+        trigger: "a.jqm_popup",
+        onShow: myShow,
+        onLoad: myLoad,
+        onHide: myHide
+      });
+    });
+
+
+    function addValueCallback(counter, control, value_id, value_value) {
+      if (control == "select") {
+        //var select = jQuery("select[rel='field_id_"+ field_id +"']")[0];
+        var select = ge("item_data_attributes_" + counter + "_value_integer");
+        select.options[select.options.length] = new Option(value_value, value_id, false, true);
+        select.focus();
+      } else if (control == "multiple") {
+        jQuery("#container_" + control + "_" + counter).append('<div style="padding-bottom: 2px;"><label><input type="checkbox" name="data_set[' + counter + '][]" value="' + value_id + '" checked="checked" /> ' + value_value + '</label></div>');
+      } else if (control == "radio") {
+        jQuery("#container_" + control + "_" + counter).append('<div style="padding-bottom: 2px;"><label><input id="item_data_attributes_' + counter + '_value_integer_' + value_id + '" name="item[data_attributes][' + counter + '][value_integer]" type="radio" value="' + value_id + '" /> ' + value_value + '</label></div>');
+        jQuery("#item_data_attributes_" + counter + "_value_integer_" + value_id).click();
+      }
+      jQuery('#popupDiv').jqmHide();
+    }
+
+  <% end -%>
+<% end -%>

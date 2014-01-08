@@ -1,0 +1,113 @@
+
+<% remote_form_for @user, :url => url do |f| %>
+  <table cellpadding="4" cellspacing="0" width="100%">
+    <tr>
+      <td valign="top" align="right" width="40%"><b>* E-mail:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :email, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:email) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Password:</b></td>
+      <td valign="top" align="left">
+        <%= f.password_field :password, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:password) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Password Confirmation:</b></td>
+      <td valign="top" align="left">
+        <%= f.password_field :password_confirmation, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:password_confirmation) %></div>
+      </td>
+    </tr>
+    
+    <tr>
+      <td valign="top" align="right"><b>* First Name:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :first_name, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:first_name) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Last Name:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :last_name, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:last_name) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>Company:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :company, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:company) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Address:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :address1, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:address1) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>&nbsp;</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :address2, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:address2) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* City:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :city, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:city) %></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* State:</b></td>
+      <td valign="top" align="left">
+        <%= f.geography_division_select :state, {
+              :drilldown => "state",
+              :only => {
+                :country => "United States of America"
+              }, :prompt => "Select State..."
+            }, :class => "inputText"
+        %>
+        <div class="error"><%= @user.errors.on(:state) %></div>        
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Zip:</b></td>
+      <td valign="top" align="left">
+        <%= f.text_field :zip, :class => "inputText" %>
+        <div class="error"><%= @user.errors.on(:zip) %></div>        
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>Phone:</b>
+      </td>
+      <td valign="top" align="left">
+      <%= f.text_field :phone, :class => "inputText" %></td>
+      <div class="error"><%= @user.errors.on(:phone) %></div>        
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>Fax:</b></td>
+      <td valign="top" align="left">
+      <%= f.text_field :fax, :class => "inputText" %>
+      <div class="error"><%= @user.errors.on(:fax) %></div>        
+      </td>
+    </tr>
+    
+  </table>
+  
+  <div class="buttonDiv">
+    <%= submit_to_remote "submit", "", :url => url, :html => { :class => "button btSubmit" }  -%>
+  </div>
+<% end %>
+  
+  
+
+
+

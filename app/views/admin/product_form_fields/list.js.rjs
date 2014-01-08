@@ -1,0 +1,15 @@
+
+page.replace_html "items_div", :partial => "table"
+
+#page.replace_html "form_div", ""
+page.replace_html "form_div",
+  :partial => "form", :locals => {
+    :url => { :action => "create", :type_id => @type },
+    :caption => "Add New Field"
+  }
+
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_position' }"
+page.call 'initTableInterface', "items_table"
+
+#page.call << "source_fields_json = #{@source_fields.to_json}"
+page.call 'initProductFormFieldsForm'

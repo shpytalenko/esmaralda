@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Esmeralda Jewels 1, Inc</title>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <meta name="author" content=""/>
+  <meta name="generator" content=""/>
+  <!--<link rel="StyleSheet" type="text/css" href="/stylesheets/styles.css"/>-->
+  <%= stylesheet_link_tag "styles" %>
+  <%= stylesheet_link_tag "pagination" %>
+  <%= yield(:head) %>
+</head>
+<body>
+<div id="wrap">
+
+  <div id="header">
+    <div id="headerTop">
+      <ul id="left">
+        <li><a href="<%= root_path %>" title="">Home</a></li>
+        <li>|</li>
+        <li><a href="/about" title="">About Us</a></li>
+        <li>|</li>
+        <li><a href="<%= testimonials_path %>" title="">Testimonials</a></li>
+      </ul>
+      <ul id="right">
+        <li><a href="<%= cart_path %>" title="">Shopping Cart</a></li>
+        <li>|</li>
+
+        <% if current_user %>
+          <li><a href="<%= profile_path %>" title="">Edit Profile</a></li>
+          <li>|</li>
+          <li><a href="<%= logout_path %>" title="">Logout</a></li>
+        <% else %>
+          <li><a href="<%= signup_path %>" title="">Registration</a></li>
+          <li>|</li>
+          <li><a href="<%= login_path %>" title="">Login</a></li>
+        <% end %>
+
+      </ul>
+    </div>
+    <div id="headerContent">
+      <a id="logo" title="" href="<%= root_path %>"><span>Esmeralda Jewels 1, Inc</span></a>
+      <div id="phones">
+        Monday - Thursday 9:00 AM to 6:00 PM EST, Friday 9:00 AM to 1:00 PM EST
+      </div>
+    </div>
+  </div>
+
+  <div id="menu">
+    <div id="search">
+      <form action="/products/search" method="get">
+        <input type="text" class="inputText" name="q"
+               onblur="this.value=(this.value=='')?this.title:this.value;"
+               onfocus="this.value=(this.value==this.title)?'':this.value;"
+               value="<%= params[:q] || 'Search...' %>"
+               title="Search..."
+        />
+        <input type="image" src="/sitepics/pix.gif" alt="" />
+      </form>
+    </div>
+    <ul>
+      <li><a href="/about" id="mnAboutUs"><span>About Us</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/products/rings" id="mnRings"><span>Rings</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/products/earrings" id="mnEarrings"><span>Earrings</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/products/bracelets" id="mnBracelets"><span>Bracelets</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/products/pendants" id="mnPendants"><span>Pendants</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/products/necklaces" id="mnNecklaces"><span>Necklaces</span></a></li>
+      <li class="sep"><span>&nbsp;</span></li>
+      <li><a href="/contact" id="mnContactUs"><span>Contact Us</span></a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+
+    <div id="contenrBorderTop"></div>
+    <div id="contentLeftColumn">
+
+      <div class="blockColumn">
+        <div class="blockColumnHeaderProducts"></div>
+        <div class="blockColumnContent">
+          <ul>
+            <% @menu_categories = Product::Category.roots.active -%>
+            <% unless @menu_categories.blank? -%>
+              <% @menu_categories.each do |category| -%>
+                <li><a class="linkCategory" href="/products/<%=h category.permalink %>" title=""><%=h category.name %></a></li>
+                <% subcategories = Product::Category.active.all(:conditions => {:parent_id => category.id}, :order => :lft) -%>
+                <% unless subcategories.blank? -%>
+                  <% subcategories.each do |subcategory| -%>
+                    <li><a class="linkSubCategory" href="/products/<%=h category.permalink %>/<%=h subcategory.permalink %>" title=""><%=h subcategory.name %></a></li>
+                  <% end -%>
+                <% end -%>
+              <% end -%>
+            <% end -%>
+          </ul>
+        </div>
+        <div class="blockBottomBg"></div>
+      </div>
+      <div class="blockSpacer"></div>
+
+      <div class="blockColumn">
+        <div class="blockTopBg"></div>
+        <div class="blockColumnContent">
+          <center>
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="200" height="90" id="columnBanner" align="middle">
+              <param name="allowScriptAccess" value="sameDomain" />
+              <param name="movie" value="/flash/columnBanner.swf" />
+              <param name="quality" value="high" />
+              <param name="bgcolor" value="#C2D5DD" />
+              <embed src="/flash/columnBanner.swf" quality="high" bgcolor="#C2D5DD" width="200" height="90" name="columnBanner" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+            </object>
+          </center>
+        </div>
+        <div class="blockBottomBg"></div>
+      </div>
+      <div class="blockSpacer"></div>
+
+      <% testimonials = Testimonial.find(:all, :limit =>1, :conditions => { :is_active => true }, :order => "RAND()") %>
+      <% if testimonials.count == 1 -%>
+        <div class="blockColumn">
+          <div class="blockColumnHeaderTestimonials"></div>
+          <div class="blockColumnContent">
+            <div class="blockColumnContentInner lightBlueBg">
+              <%=h testimonials[0].text %>
+            </div>
+            <div class="blockColumnContentInner">
+              <a href="<%= testimonials_path %>" class="arrow right">Read more</a>
+              <%=h testimonials[0].customer %>
+            </div>
+          </div>
+          <div class="blockBottomBg"></div>
+        </div>
+        <div class="blockSpacer"></div>
+      <% end -%>
+
+      <div class="blockColumnEmpty">
+        <!--
+        <div class="blockColumnContentInnerEmpty centerContentAlign">
+          <a href="#" title=""><img src="/sitepics/icoGuaranty.gif" alt=""/></a>
+        </div>
+        -->
+        <div class="blockColumnContentInner lightBlueBg littleTopMargin">
+            All purchases are 100% risk-free. If you are not satisfied, simply return the merchandise for a refund.
+            <br/><a href="#" title="">Read more</a>
+        </div>
+        <div class="blockColumnContentInner centerContentAlign">
+          <img src="/sitepics/ppLogos.gif" alt=""/>
+        </div>
+      </div>
+    </div>
+
+    <div id="contentRightColumn">
+      <%= yield %>
+    </div>
+
+    <div id="contenrBorderBottom"></div>
+  </div>
+
+  <div id="footer">
+    <ul>
+      <li><a href="<%= root_path %>" title="">Home</a></li>
+      <li>|</li>
+      <li><a href="/about" title="">About Us</a></li>
+      <li>|</li>
+      <li><a href="/service" title="">Customer Service</a></li>
+      <li>|</li>
+      <li><a href="/policy" title="">Privacy Policy</a></li>
+      <li>|</li>
+      <li><a href="/terms" title="">Terms &amp; Conditions</a></li>
+      <li>|</li>
+      <li><a href="<%= testimonials_path %>" title="">Testimonials</a></li>
+      <li>|</li>
+      <li><a href="/contact" title="">Contact Us</a></li>
+    </ul>
+    Copyright &copy; <%= Time.now.year %> Esmeralda Jewels 1, Inc - All right reserved
+  </div>
+
+</div>
+</body>
+</html>

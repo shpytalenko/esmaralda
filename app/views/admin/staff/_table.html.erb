@@ -1,0 +1,32 @@
+<% if @items_count > 0 -%>
+  <p><%= @items_count %> staff found</p>
+
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :name, :as => "Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :login, :as => "Login" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :email, :as => "E-mail" %></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for item in @items -%>
+        <tr id="items_table_<%= item.id %>">
+          <td><%=h item.name %></td>
+          <td><%=h item.login %></td>
+          <td><%= auto_link item.email, :all, :target => "_blank" %></td>
+          <td style="width: 65px;">
+            <%= link_to "", { :action => "view", :id => item }, :class => "action-link view", :title => "View" %>
+            <%= link_to "", { :action => "edit", :id => item }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "delete", :id => item }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

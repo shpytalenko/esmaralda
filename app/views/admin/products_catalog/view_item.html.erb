@@ -1,0 +1,51 @@
+<% title "Product \"#{h(@item.name)}\"" %>
+
+<table class="items">
+  <tr>
+    <td>SKU:</td>
+    <td><%=h @item.sku %></td>
+  </tr>
+  <tr>
+    <td>Name:</td>
+    <td><%=h @item.name %></td>
+  </tr>
+  <tr>
+    <td>Category:</td>
+    <td><%= @item.category.self_and_ancestors.map{|i| h(i.name)}.join(" &raquo; ") %></td>
+  </tr>
+  <tr>
+    <td>Description:</td>
+    <td style="width: 300px;"><%=h @item.description %></td>
+  </tr>
+  <tr>
+    <td>Retail Price:</td>
+    <td><%= number_to_currency(@item.retail_price) %></td>
+  </tr>
+  <tr>
+    <td>Price:</td>
+    <td><%= number_to_currency(@item.price) %></td>
+  </tr>
+  <tr>
+    <td>Active:</td>
+    <td><%= yes_no(@item.is_active) %></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+      <%= link_to "Edit", { :action => "edit_item", :id => @item }, :class => "action-link-text edit" %>
+      <%= link_to "Properties", { :controller => "products/properties", :action => "list", :item_id => @item }, :class => "action-link-text edit2" %>
+      <%= link_to "Images", { :controller => "products/assets", :item_id => @item }, :class => "action-link-text images" %>
+      <%= link_to "Copy", { :action => "copy_item", :id => @item }, :class => "action-link-text copy" %>
+      <%= link_to "Delete", { :action => "delete_item", :id => @item }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+      <%= link_to "New Product", { :action => "new_item" }, :class => "action-link-text add" %>
+      <div class="clear"></div>
+    </td>
+  </tr>
+</table>
+
+
+
+

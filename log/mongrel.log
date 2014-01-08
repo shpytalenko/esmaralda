@@ -1,0 +1,1311 @@
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Mon Apr 18 14:50:31 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:50:31 -0500 2011: REQUEST DATA: "GNUTELLA CONNECT/0.6\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GNUTELLA"}
+---
+Mon Apr 18 14:50:32 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:50:32 -0500 2011: REQUEST DATA: "GNUTELLA CONNECT/0.4\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GNUTELLA"}
+---
+Mon Apr 18 14:50:37 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:50:37 -0500 2011: REQUEST DATA: "Secure * Secure-HTTP/1.4\r\nHost: cl29.justhost.com:12002\r\nConnection: close\r\n\r\n"
+---
+PARAMS: {}
+---
+Mon Apr 18 14:50:45 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:50:45 -0500 2011: REQUEST DATA: "some invalid request\r\n\r\n"
+---
+PARAMS: {}
+---
+Mon Apr 18 14:53:06 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:53:06 -0500 2011: REQUEST DATA: "GET %. HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:53:12 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:53:06 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:53:06 -0500 2011: REQUEST DATA: "GET %. HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:53:12 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Keep-Alive\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:53:54 -0500 2011: Read error: #<URI::InvalidURIError: bad URI(is not URI?): c:\boot.ini>
+/usr/lib/ruby/1.8/uri/common.rb:436:in `split'
+/usr/lib/ruby/1.8/uri/common.rb:485:in `parse'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:127:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+Mon Apr 18 14:54:39 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:54:39 -0500 2011: REQUEST DATA: "GET /citrix/nfuse/default/login.asp?NFuse_LogoutId=&NFuse_MessageType=Error&NFuse_Message=<SCRIPT>alert('Ritchie')</SCRIPT>&ClientDetection=ON HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/citrix/nfuse/default/login.asp", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:54:40 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:54:40 -0500 2011: REQUEST DATA: "GET /citrix/MetaframeXP/default/login.asp?NFuse_LogoutId=&NFuse_MessageType=Error&NFuse_Message=<SCRIPT>alert('Ritchie')</SCRIPT>&ClientDetection=ON HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/citrix/MetaframeXP/default/login.asp", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:55:38 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:55:38 -0500 2011: REQUEST DATA: "GET /s26ccgnk.asp?<script>document.cookie=%22testtbxp=3400;%22</script> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:55:44 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/s26ccgnk.asp", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:55:38 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:55:38 -0500 2011: REQUEST DATA: "GET /s26ccgnk.asp?<meta%20http-equiv=Set-Cookie%20content=%22testtbxp=3400%22> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:55:44 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/s26ccgnk.asp", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:55:39 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:55:39 -0500 2011: REQUEST DATA: "GET /s26ccgnk.aspx?<script>document.cookie=%22testtbxp=3400;%22</script> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:55:45 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/s26ccgnk.aspx", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:55:39 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:55:39 -0500 2011: REQUEST DATA: "GET /s26ccgnk.aspx?<meta%20http-equiv=Set-Cookie%20content=%22testtbxp=3400%22> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:55:45 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/s26ccgnk.aspx", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:55:50 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:55:50 -0500 2011: REQUEST DATA: "GET /%NETHOOD%/ HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:56:01 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:56:01 -0500 2011: REQUEST DATA: "GET . HTTP/1.0\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:56:02 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:56:02 -0500 2011: REQUEST DATA: "GET /WebID/IISWebAgentIF.dll?postdata=\"><script>foo</script> HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/WebID/IISWebAgentIF.dll", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:56:44 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:56:44 -0500 2011: REQUEST DATA: "GET /\000.jsp HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:57:31 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:57:31 -0500 2011: REQUEST DATA: "GET ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:57:37 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:57:32 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:57:32 -0500 2011: REQUEST DATA: "GET ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:57:38 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:57:46 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:57:46 -0500 2011: REQUEST DATA: "GET %5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cwinnt%5cwin.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:57:52 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:57:52 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:57:52 -0500 2011: REQUEST DATA: "GET .\\.\\.\\.\\.\\.\\.\\.\\.\\.\\/windows/win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:57:58 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:57:52 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:57:52 -0500 2011: REQUEST DATA: "GET .\\.\\.\\.\\.\\.\\.\\.\\.\\.\\/winnt/win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:57:58 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:58:01 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:58:01 -0500 2011: REQUEST DATA: "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:58:07 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:58:02 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:58:02 -0500 2011: REQUEST DATA: "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:58:08 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:58:06 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:58:06 -0500 2011: REQUEST DATA: "GET ../../../../../../etc/passwd HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:58:13 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nCookie: _esmeralda_session=BAh7BjoPc2Vzc2lvbl9pZCIlMjY2YzFhYTczZjZhZDQxYjRjYmI1OTQ2Y2NmYjdiM2E%3D--f341c4792e8edfcface8ac58b76833713b6f58b9\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:58:44 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:58:44 -0500 2011: REQUEST DATA: "GET ..\\..\\..\\..\\..\\..\\windows\\win.ini HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:58:50 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:06 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:06 -0500 2011: REQUEST DATA: "GET /<script>cross_site_scripting.nasl</script>.asp HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:59:12 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:06 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:06 -0500 2011: REQUEST DATA: "GET /05zxxtcz.asp?<script>cross_site_scripting.nasl</script> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:59:13 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/05zxxtcz.asp", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:07 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:07 -0500 2011: REQUEST DATA: "GET /<IMG%20SRC=\"javascript:alert(cross_site_scripting.nasl);\">.asp HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:59:13 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:14 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:14 -0500 2011: REQUEST DATA: "GET /servlet/webacc?User.lang=<script>foo</script> HTTP/1.1\r\nHost: cl29.justhost.com:12002\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nDate: Mon, 18 Apr 2011 19:59:20 GMT\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept-Charset: iso-8859-1,utf-8;q=0.9,*;q=0.1\r\nPragma: no-cache\r\nAccept-Language: en\r\nConnection: Close\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/servlet/webacc", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:16 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:16 -0500 2011: REQUEST DATA: "GET /<script>foo</script> HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 14:59:19 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 14:59:19 -0500 2011: REQUEST DATA: "GET /index.html?urlmaskfilter=<script>foo</script> HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/index.html", "REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 15:04:46 -0500 2011: HTTP parse error, malformed request (117.196.220.213): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Mon Apr 18 15:04:46 -0500 2011: REQUEST DATA: "GET ././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././../../../../../../../../ HTTP/1.1\r\nConnection: Close\r\nHost: cl29.justhost.com\r\nPragma: no-cache\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*\r\nAccept-Language: en\r\nAccept-Charset: iso-8859-1,*,utf-8\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Mon Apr 18 15:14:23 -0500 2011: Read error: #<Errno::ETIMEDOUT: Connection timed out>
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:137:in `write'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:137:in `write'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:103:in `send_body'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/http_response.rb:147:in `finished'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:165:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2407-976-AM393_1_.JPG: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2407-977-AM393_2_.JPG: Connection reset by peer
+
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/btSearch.gif: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/medium/2356-888-AM338_1_.JPG: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2356-888-AM338_1_.JPG: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/paypalCard.jpg: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgBox.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpLeft2.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/pix.gif: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUp.jpg: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpLeft2.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpLeft2.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/questions.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2397-951-AK439.JPG: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2469-1087-tiffanyleaf_1_.JPG: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\200j\001\003\001\000Q\000\000\000\020\000\0009\000\0008\000\0005\000\0003\000\0002\000\000/\000\000\026\000\000\025\000\000\024\000\000\023\000\000\022\000\000\021\000\000\n\000\000\t\000\000\b\000\000\006\000\000\005\000\000\004\000\000\003\a\000¿\000@\004\000\200\003\000\200\002\000\200\001\000\200\000\000\002\000\000\001ﬂ-`'\241¸Œıèı\3737\214\361"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\026\003\001\000V\001\000\000R\003\001N\224\v\214&À$\tÕú”≈\2731dz\t2m’w\210◊ØƒN\177ÕC¬ \000*\0009\0008\0005\0003\0002\000/\000\026\000\025\000\024\000\023\000\022\000\021\000\n\000\t\000\b\000\006\000\005\000\004\000\003\000\002\000\001\002\001\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\026\003\000\000V\001\000\000R\003\000N\224\v\214nsmÂç'\241Õ[\000Go\227¬‰yVH\030\260\ek—ÖNyÚ  *\0009\0008\0005\0003\0002\000/\000\026\000\025\000\024\000\023\000\022\000\021\000\n\000\t\000\b\000\006\000\005\000\004\000\003\000\002\000\001\002\001\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\003\025\022’{\023\234yb\027?\017$5\223\247\f\001\253c\002\026\aÛ˛SﬁÎQÒZ_zÊˆmÓ·>ÈÃ”&T_=Ÿ„E\225q\205Ke\2256\215 “\vgwo\257€u\212ﬂç\377/¸ùπ◊SÙ*Eø”◊\377*'0\035M\252–«8\244uH—>1\e\264tnOH\026n\273–¬!\263 ,\f\177\376¡€\200\274\024\032 (%$\037c\026?\236\272\240\023'o%·0FcÂÀ†Õó2,\203Ó*‘cx\000Ïbõ3\223\b)C\031\256j\035\262y\205ﬂé\254 2\264ŒH\213\255\203\004Œ‚g\n&\237ÛÀ£¿⁄‰P‹¥I“Ò\tÌ∏Ê\272\256\253\"\274ÊØi\005\032\274hıiÌËJ?‹\212\tŒtÍø8\276\021Á˘∫j€ã&fvy\0372\253”sSJﬁ‘\274Ù{Êyÿè‰ãf‹$aÂú¥\b—∫\036\243J›ØCÁƒá_074+”ÕÕ`·+\236d\251€s\247\\Íâ∂\254\265\265\002\r\006\206”‹ﬁìZÔﬂp\237$\261\2636@\0309GlU7\r/\265\to4\177\035\214w\261Ãi\221bÚTdœÍı"^\266\265\242Jb…‘Œ‚\273\242\210dt-\177\376\273m3|E>\255ÔûËÿç]n@V\2463\265‡±∏1√Á‰±åÔ6¸udˆêä\3774/\031—©CW\272ÀÙ‰2z\212W^\016\2663¬\263\212\035xF\203|J\227N⁄”\376\223=”ˆ\246\234ÂK8\034‘|Úóò–\271˙79Ú\210\2654ÚC?\177Xt*_`\036ÛËB\017 {„î\2145ŸÅ\223 ∞\212Õf+\224Àx\032«“\200g\036…P«(∆H\237\034\225\023€.\220ÁùËÃ€\252ﬂ0\270\016\004}\037\223\0062ƒn\032\212\211\220WE\004\256\230\\\023DL(Ïü∆l\230\204rÕ<\252\203yËÖıª—õh\273]\271`\025\025\n\230‰Í:\222ÃÒpZH\017S\023\034Êt\266|\263N\n—u\262X\233Ù8K»7Œw¿î%\257\nÕ*}\026Up|1€ˆ^\241\277\a«†„w?\264G\272Pÿ¬\v'j\030|\245¯©1]iI.=\"]oÁÂÏ\030w\211˝≈VH†›ÿ›6#\257%“\001\030\230\222\222\177ˆ5ÅrB+B\022:}\225\246\256\243cÃÕM`\256\2238A\r\241\250„vÃZn\261G\246ÃÍádÍ&·BÛCeıx»Ïh\223\020Êã˘OD\024‘P\262-ÂÄÚ!&ƒM\277˙JCX=H…?\226\2152k\272\004Ô.D\034\002A\276\032x\376œ≠\f‹õ\250F\v\224'\221\0229\277\213G=\b\005rÃÃÿZ\213w\274˝/öãcc\r\v\202\204\"(o\217\270;\0255\251r9¿Ó!\201\2152\261S:ÿT\377\006\001\177A∆G\247\276‘QIP\000V\006\242Ûct\004;%\020ÁÉ\020k¸p·2â\235>\023z5\034yƒ∑d\247‰ \031\200J\0055\·Àj\243¯Œ4àæ\177˚òŸA1\0318J\250\t\276∆˝\177]\207y\273\226n\\\225\216O‚¸_g\a⁄ó{\210\243\262ODG\211'\254h\020≈…\245∆„Î√z\016n 5O˝5bö∂
+uœ©\nQÚœ"˚\207\r\250˝∞7›º\225\267\227O\376\266B\023\031\177˜3bÂK\037`x\004\204@-\201\233\006_˙\8Ê;G\023—À⁄\034D\270\"¬-\210|rÔÇ@\205ŒqJ9\017O\v\223\027\\\025\vv‡‘ªÃÕL^◊]\003)\233Ÿz\220}\025E\270n˜s'w‘È\216⁄√\242\240\255\002P\220·#Ω7\246\274m\210Í†Ú ¬a\272…*\221\273\003N~ÌØW<W\206\216\244@\f#W\243\0063\377wÚF⁄}t\020\213?ŒH\"\217\031ÿI\202(\214G\\E\232_‹\242c˚Èu’e\243˝„&ÕË}\275u\006\275ti⁄HB\023\253\267⁄âœ3\377\a\260\026wtÍ√õn~ﬁ\251@\003‘ \034u}Œ9›–\200\201\016j\236\002&\21264H\247\376\250\271YQ\242Í!û\017\002‹3\005ÛË≈@^\241a\031⁄®\253\a3¯>¸ª2‡7\276Õ\377√Î\212\036\220— Ü^C;\177 ã$\225\"‘ì-O\256¿ S\213ﬁ\226Ôr)\275\vU\245\017h√D\241◊$\255\026∆»ÏﬂN\277\207\2273,ÙZ√˛‘\225\241\252\241l}\017uÔªö\210/G<p}ÙiÈ\205^/ıë&\267C\a \205\206.YÜ\224˜hà\034F\215\fKr\242[jŸy\020\203\001ıÁ;\022{«ü\2420⁄û0siy\025Z\274˘2ù'≥\233—'\244ÎÉA˚´ô∫à\237\275RrÌ}#q\2566ÃdıœÁr\376qÊˇÂ\BPl\273\263~Ôe\177T\036\"v«^\a\000rj\fL»Q⁄=Œù\221\036SA\215\215u)Ò„Q‡T<\t\244T\376aw\272Áè|\265,ËÌq\b\\\267\243¡Ü_\260-6V\035u`\303"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000\003iÚ   \000\000\000\000\002\000\000\000\000\017\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "<?xml version=\"1.0\"?>\n<stream:stream xmlns=\"jabber:client\" xmlns:stream=\"http://etherx.jabber.org/streams\" version=\"1.0\" to=\"69.175.50.189\"/>\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "Q\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000a\000a\000a\000a"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "AB\000\001\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\004\000\004\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "nVERSION\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000\eÙE  \000\001\000\000\000\000\000\000\tlocalhost\000\000\001\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000(÷¬\000\000\000\001\000\000\000\000\000\000\0011\0010\0010\003127\aIN-ADDR\004ARPA\000\000\f\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000\036\001+\000\000\000\001\000\000\000\000\000\000\aversion\004bind\000\000\020\000\003"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000,\275\036\000\000\000\001\000\000\000\000\000\000\003189\00250\003175\00269\aIN-ADDR\004ARPA\000\000\f\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000&\267Z\000\000\000\001\000\000\000\000\000\000\vtrustkeeper\bnodomain\000\000\001\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000!63\000\000\000\001\000\000\000\000\000\000\vtrustkeeper\003net\000\000\001\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000&\017P\001\000\000\001\000\000\000\000\000\000\vtrustkeeper\bnodomain\000\000\001\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\000!q\230\001\000\000\001\000\000\000\000\000\000\vtrustkeeper\003net\000\000\001\000\001"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "0000000204000d0001  4 \000root\000\00010\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "TrustKeeper Echo Test\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "root\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "GIOP\001\000\000\000\000\000\0000\000\000\000\000\000\000o[\001\000\000\000\000\000\000\004INIT\000\000\000\004get\000\000\000\000\000\000\000\000\fNameService\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:09 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:09 -0500 2011: REQUEST DATA: "\003\000\000Uh\005\004\003\200\220\205(\026noreply@bogusnet.bogus~\000« \270\006\000\b\221J\000\004\001@\025\000n\000o\000r\000e\000p\000l\000y\000@\000b\000o\000g\000u\000s\000n\000e\000t\000.\000b\000o\000g\000u\000s\"¿	\000\000=\017Carrier-Scanners\0021.0\000\001@\025\000n\000o\000r\000e\000p\000l\000y\000@\000b\000o\000g\000u\000s\000n\000e\000t\000.\000b\000o\000g\000u\000s\000E\2572\275.‚ ‚\r\207\026\244f=Âëo\251€Ÿ+‚À ’\200\000\a\000@%Ááﬁ\031\021\000\025‰´mÂ	ü\376\262Mp\aK\v~[\001\000\001\000\001\000\001\000\020\200\001\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "0,0\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "USER\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "JRMI\000\002K\000\t127.0.0.1\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "0\f\002\001\001`\a\002\001\002\004\000\200\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "\004TrustKeeperScan\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "BN\037\000\002\000‹3\005\000A\fi\037]([\225\234\255\225\250Ê(˝\035˙UÉ‚"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "alldisks\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "\000\0168i\254T\246›e@k\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "\000\234\000\001\032+<M\000\001\000\000\001\000\000\000\000\000\000\001\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "99999\000trustkeeper\000trustkeeper\000pwd\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "OPTIONS * RTSP/1.0\r\nCSeq: 1\r\nUser-Agent: Trustkeeper RTSP Scan\r\n\r\n"
+---
+PARAMS: {"REQUEST_URI"=>"*", "REQUEST_METHOD"=>"OPTIONS"}
+---
+Tue Oct 11 04:25:10 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:10 -0500 2011: REQUEST DATA: "\377˚%ˇ˝&\377˚&ˇ˝\377˚ˇ˚\377˚ ˇ˚!\377˚"ˇ˚'\377\375\005"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "l\000\v\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "l\000\002\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\000\000\000\a \000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\002"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\000\000\000\000\003\002\274\0022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222AAAAAAAAAAAAAAAAAAAA\v\021\v\017\003\016\t\v\026\021\024\020\021\004\003\034\021\034\025\001\000\006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "÷Å\201\006\001\000\000˜B?\004\000\000\000\000\000\000\001\031\275\2353[3\030\377\001\000\000\002\005                                \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\000\000\000\001\000\000\000\023\000\000\000\002\000\000\000$\000\000\000\032/opt/firebird/no_such_.gdb\000\000\000\000\000\002\000\000\000\016\001\003T_K\004\aTK_Scan\000\000\000\000\b\000\000\000\000\001\000\000\000\002\000\000\000\003\000\000\000\002\000\000\000\n\000\000\000\001\000\000\000\002\000\000\000\003\000\000\000\004"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "stats\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\022\001\000/\000\000\000\000\000\000\032\000\006\001\000 \000\001\002\000!\000\001\003\000\"\000\004\004\000&\000\001\377\f\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\000B"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "‰  \000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:20 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:20 -0500 2011: REQUEST DATA: "\000\000\000&\000\003\000\000user\000root\000database\000template0\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: ":\000\000\000/\000\000\000\002\000\000@\002\017\000\001\000=%\000\000\000\000\000\000\000\000\000\000\000\000/\000\000\000\000\000\000\000\000\000@\037\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\000\000\b\245\000\001\002\000\000\000\000\032\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\000\000\b\245\000\001\004\000\000\000\000)\000\001\000\001\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\000\004\035\245"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\000\001\000\000\000\020\000#\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\024\000\000\000MESSAGE_FROM_REMOTE\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "RFB 003.008\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"RFB"}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "////////////////////"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(1\270#f\000\000\000\000\000\000\000\002\000\001\206\240\000\000\000\002\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(u÷˘m\000\000\000\000\000\000\000\002\000\001\206\243\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\224\026T\001\000\000\000\000\000\000\000\002\000\001\206\245\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(1\2631|\000\000\000\000\000\000\000\002\000\001\207%\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\214\253\225\021\000\000\000\000\000\000\000\002\000\001\206\255\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(8eeÃ \000\000\000\000\000\000\002\000\001\206\262\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(.R<\255\000\000\000\000\000\000\000\002\000\004\223Û   \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(I¿úR\000\000\000\000\000\000\000\002\000\001\207\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(”¥\e.\000\000\000\000\000\000\000\002\000\001\206\272\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\251#\025ÿ \000\000\000\000\000\000\002\000\001\207\213\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(¸k—(  \000\000\000\000\000\002\000\001\206‰  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(÷Á“™\000\000\000\000\000\000\000\002\000\001\206\260\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(8%˙Û   \000\000\000\000\002\000\004\2266\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(Ks\017\207\000\000\000\000\000\000\000\0020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(/\e\266„  \000\000\000\000\000\002\000\001\206\252\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(T\031“‡\000\000\000\000\000\000\000\002\000\005˜Z  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(”Èqﬁ \000\000\000\000\000\000\002\000\001\207}\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(˜ê?ë\000\000\000\000\000\000\000\002\000\001\206\275\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\210’m… \000\000\000\000\000\000\002\000\001\206\264\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(mM\256Ã \000\000\000\000\000\000\002\000\001\210F\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(;\036\021– \000\000\000\000\000\000\002\000\001\207\271\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\017\023ÏÁ \000\000\000\000\000\000\002\000\001\207\205\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\2153\001I\000\000\000\000\000\000\000\002\000\001\207\222\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(N>V\200\000\000\000\000\000\000\000\002\000\001\207\206\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\210\212+√ \000\000\000\000\000\000\002\000\001\206\265\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\233m˙¥   \000\000\000\000\002\000\001\206∆ \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(W\272Õ\000\000\000\000\000\000\000\002\000\001\206« \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\231_xL\000\000\000\000\000\000\000\002\000\002IÒ   \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\227\265\261^\000\000\000\000\000\000\000\002\000\001\206\261\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\030\221\"9\000\000\000\000\000\000\000\002\000\001\206\256\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(¯√øæ \000\000\000\000\000\000\002\000\001\206\253\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(⁄Ñ\n» \000\000\000\000\000\000\002\000\001\206\241\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(8\a\005Ù   \000\000\000\000\002\000\001\206\242\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(Z√´\212\000\000\000\000\000\000\000\002\000\001\207\210\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(√k\271\001\000\000\000\000\000\000\000\002\000\001\2071\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\025)pt\000\000\000\000\000\000\000\002\000\001\206\263\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(n…,h\000\000\000\000\000\000\000\002\000\001\210\265\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\262w\241\223\000\000\000\000\000\000\000\002\000\001\206\257\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000([\202Í’ \000\000\000\000\000\000\002\000\001\207\032\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\245–ÿœ \000\000\000\000\000\000\002\000\001\207\231\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\b\216ËÂ \000\000\000\000\000\000\002\000\001\206\254\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000( \234O\r\000\000\000\000\000\000\000\002\000\001\206\267\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(0B?Í  \000\000\000\000\000\002\000\001\206\270\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\037C· \000\000\000\000\000\000\002\000\001\206¡ \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(iKÃÜ\000\000\000\000\000\000\000\002\000\001\206≈ \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(ıÀ‚+\000\000\000\000\000\000\000\002\000\001\207\224\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\037\003\262\232\000\000\000\000\000\000\000\002\000\001\206Û   \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(l\272‚A \000\000\000\000\000\000\002\000\001\206\250\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(ƒÎK(\000\000\000\000\000\000\000\002\000\001\206\266\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(|\032\260Ì  \000\000\000\000\000\002\000\001\206\247\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\204≈6\225\000\000\000\000\000\000\000\002\000\001\206\251\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(ÁÕÈ\275\000\000\000\000\000\000\000\002\000\001\206\274\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(%\212Óı \000\000\000\000\000\000\002\000\001\206\244\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(‘I\000Ï  \000\000\000\000\000\002\000\001\206À \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(„Æı\026\000\000\000\000\000\000\000\002\000\005Û„  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(`„Ìµ\000\000\000\000\000\000\000\002\000\005Û◊  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\231\a\\\006\000\000\000\000\000\000\000\002\000\005Û·  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(&\221\"\257\000\000\000\000\000\000\000\002\000\005ÛŸ  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\035ËƒÃ\000\000\000\000\000\000\000\002\000\005Ûﬁ  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(œe\211\230\000\000\000\000\000\000\000\002\000\005Ûÿ  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(∆s\"\235\000\000\000\000\000\000\000\002\000\005Û€  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\266\274»P\000\000\000\000\000\000\000\002\000\005ı   \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(e\216N.\000\000\000\000\000\000\000\002\000\005Û›  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\231@hf\000\000\000\000\000\000\000\002\000\005Û’  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:35 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:35 -0500 2011: REQUEST DATA: "\200\000\000(\177÷Â‡  \000\000\000\000\000\002\000\005Û÷  \000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: "\005\000\v\003\020\000\000\000H\000\000\000\000\000\000\000––\000\000\000\000\001\000\000\000\000\000\001\000\210\210(%[\275—\235S\000\200»:\\,\001\000\000\000\004]\210\212Î…\021\237Ë +\020H`\002\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: " 116 1\ntrustkeeper\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: "4\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: "\005\000\v\003\020\000\000\000H\000\000\000\000\000\000\000––\000\000\000\000\001\000\000\000\000\000\001\000\b\203\257·]…\221\244\b\000+\024\240˙   \004]\210\212Î…\021\237Ë +\020H`\002\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: "\000\000\000T\377SMBr\000\000\000\000\030\001(\000\000\000\000\000\000\000\000\000\000\000\000\000\000ık  \030\221\0001\000\002LANMAN1.0\000\002LM1.2X002\000\002NT LANMAN 1.0\000\002NT LM 0.12\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:51 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:51 -0500 2011: REQUEST DATA: "\201\000\000D CKFDENECFDEFFCFGEFFCCACACACACACA\000 CACACACACACACACACACACACACACACAAA\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:52 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:52 -0500 2011: REQUEST DATA: "\003\000\000&!‡  \000\000\000Cookie: mstshash=\r\n\001\000\b\000\003\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:52 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:52 -0500 2011: REQUEST DATA: "probe!"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:25:52 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:25:52 -0500 2011: REQUEST DATA: "\001\000\000\000Œ˙\v\260\240\000\000\000MMS \024\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\022\000\000\000\001\000\003\000Ô \000\034\000\003\000N\000S\000P\000l\000a\000y\000e\000r\000/\0001\0000\000.\0000\000.\0000\000.\0003\0009\0009\0007\000;\000 \000{\0003\0003\0000\0000\000A\000D\0005\0000\000-\0002\000C\0003\0009\000-\0004\0006\000c\0000\000-\000A\000E\0000\000A\000-\0009\000D\0006\000E\0005\0009\000D\0001\0004\0003\000E\0009\000}\000\000\000\000\000"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:48:48 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:48:48 -0500 2011: REQUEST DATA: "ÏBU\250˚X)2œ\n\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 04:48:49 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 04:48:49 -0500 2011: REQUEST DATA: "ÏBU\250˚X)2œ\n\r\n"
+---
+PARAMS: {}
+---
+Tue Oct 11 05:09:23 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:23 -0500 2011: REQUEST DATA: "CONNECT trustwave.com:80 HTTP/1.0\n\n"
+---
+PARAMS: {"REQUEST_URI"=>"trustwave.com:80", "REQUEST_METHOD"=>"CONNECT"}
+---
+Tue Oct 11 05:09:24 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:24 -0500 2011: REQUEST DATA: "GET /calendar.php?year=2011&month=\"<script>alert(\"Trustkeeper\")</script>&day=01 HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/calendar.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:24 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:24 -0500 2011: REQUEST DATA: "GET /calendar.php?year=2011&month=\"<script>alert(\"Trustkeeper\")</script>&day=01 HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/calendar.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:27 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:27 -0500 2011: REQUEST DATA: "GET /about/<script>document.cookie=%22testlgeq=9232;%22</script> HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:27 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:27 -0500 2011: REQUEST DATA: "GET /about/<script>document.cookie=%22testlgeq=9232;%22</script> HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:28 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:28 -0500 2011: REQUEST DATA: "GET /modules/Submit/index.php?op=pre&title=<script>alert(\"test\");</script> HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/modules/Submit/index.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:29 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:29 -0500 2011: REQUEST DATA: "GET /modules/Submit/index.php?op=pre&title=<script>alert(\"test\");</script> HTTP/1.1\r\nHost: www.midnightvillains.com:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/modules/Submit/index.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:32 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:32 -0500 2011: REQUEST DATA: "CONNECT trustwave.com:80 HTTP/1.0\n\n"
+---
+PARAMS: {"REQUEST_URI"=>"trustwave.com:80", "REQUEST_METHOD"=>"CONNECT"}
+---
+Tue Oct 11 05:09:33 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:33 -0500 2011: REQUEST DATA: "GET /calendar.php?year=2011&month=\"<script>alert(\"Trustkeeper\")</script>&day=01 HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/calendar.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:33 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:33 -0500 2011: REQUEST DATA: "GET /calendar.php?year=2011&month=\"<script>alert(\"Trustkeeper\")</script>&day=01 HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/calendar.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:39 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:39 -0500 2011: REQUEST DATA: "GET /about/<script>document.cookie=%22testuitg=9650;%22</script> HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:39 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:39 -0500 2011: REQUEST DATA: "GET /about/<script>document.cookie=%22testuitg=9650;%22</script> HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:43 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:43 -0500 2011: REQUEST DATA: "GET /modules/Submit/index.php?op=pre&title=<script>alert(\"test\");</script> HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/modules/Submit/index.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:09:43 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:09:43 -0500 2011: REQUEST DATA: "GET /modules/Submit/index.php?op=pre&title=<script>alert(\"test\");</script> HTTP/1.1\r\nHost: 69.175.50.189:12002\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)\r\nAccept: */*\r\n\r\n"
+---
+PARAMS: {"REQUEST_PATH"=>"/modules/Submit/index.php", "REQUEST_METHOD"=>"GET"}
+---
+Tue Oct 11 05:11:29 -0500 2011: HTTP parse error, malformed request (64.37.231.135): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Tue Oct 11 05:11:29 -0500 2011: REQUEST DATA: "\200b\001\003\001\0009\000\000\000 \000\000\004\001\000\200\000\000\005\000\000/\000\0003\000\0002\000\000\n\a\000¿ \000\026\000\000\023\000\000\t\006\000@\000\000\025\000\000\022\000\000\003\002\000\200\000\000\b\000\000\024\000\000\021N\224\026g\260\021X,\247Ï¢!›o9\260Êhı¡:K~\277’<GY\204\002"
+---
+PARAMS: {}
+---
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpLeft2.jpg: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/questions.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2513-1175-AL415_1_.JPG: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Broken pipe
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpLeft2.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2450-1050-AL359.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2449-1048-AL71.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/paypalCard.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peerError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2470-1089-AM533_1_.JPG: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgCustomerService.jpg: Broken pipeError sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgContentMainUp.gif: Broken pipe
+
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/star1.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/items_images/thumb/2604-1350-AM7_2_.JPG: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:12002
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:12002
+** Writing PID file to log/mongrel.pid
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/logo.jpg: Connection reset by peer
+Error sending file /home/esmeral1/rails_apps/esmeralda/public/assets/products/ebay_templates/tpl1/images/bgMenuUpRight.jpg: Connection reset by peer
+** TERM signal received.
+/usr/lib64/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:79:in `unlink': Permission denied - log/mongrel.pid (Errno::EACCES)
+	from /usr/lib64/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:79:in `remove_pid_file'
+	from /usr/lib64/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:367:in `setup_signals'
+	from /usr/bin/mongrel_rails:19

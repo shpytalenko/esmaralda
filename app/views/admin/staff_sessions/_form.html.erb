@@ -1,0 +1,23 @@
+
+<% remote_form_for @staff_session, :url => admin_login_submit_path do |f| %>
+  <input type="image" src="/sitepics/pix.gif" style="display: none;" />
+  <table class="form" width="300">
+    <tr>
+      <td colspan="2" style="text-align: center;">
+        &nbsp;
+        <span class="error"><%= @staff_session.errors.on_base %></span>
+      </td>
+    </tr>
+    <tr>
+      <td>Login:</td>
+      <td><%= f.text_field :login, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><%= f.password_field :password, :class => "f-input" %></td>
+    </tr>
+  </table>
+  <p>
+    <%= submit_to_remote "submit", "Submit", :url => admin_login_submit_path %>
+  </p>
+<% end %>

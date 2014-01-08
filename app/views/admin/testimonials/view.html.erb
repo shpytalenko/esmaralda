@@ -1,0 +1,24 @@
+<% title "Testimonial" %>
+
+<table class="items">
+  <tr>
+    <td class="label">Customer:</td>
+    <td class="field"><%=h @testimonial.customer %></td>
+  </tr>
+  </tr>
+    <td class="label">Text:</td>
+    <td class="field"><%=h @testimonial.text %></td>
+  </tr>
+  <tr>
+    <td class="label">Login:</td>
+    <td class="field"><%=yes_no @testimonial.is_active %></td>
+  </tr>
+</table>
+
+
+<%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+<%= link_to "Edit", { :action => "edit", :id => @testimonial }, :class => "action-link-text edit" %>
+<%= link_to "Delete", { :action => "delete", :id => @testimonial }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+<%= link_to "New Testimonial", { :action => "new" }, :class => "action-link-text add" %>
+<div class="clear"></div>
+

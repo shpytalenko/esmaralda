@@ -1,0 +1,49 @@
+<% if @testimonials_count > 0 -%>
+  <p><%= pluralize(@testimonials_count, "testimonial") %> found</p>
+
+  <form id="items_form" class="items">
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+				<th><input type="checkbox" class="checkAll" /></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :customer, :as => "Customer" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :text, :as => "Text" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :is_active, :as => "Active" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :position, :as => "Pos." %></th>
+        <th>Actions</th>
+        <% if sort_allowed? -%>
+          <th>&nbsp;</th>
+        <% end -%>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for testimonial in @testimonials -%>
+        <tr id="items_table_<%= testimonial.id %>">
+					<td class="a-center"><%= check_box_tag "id[]", testimonial.id, false, { :id => nil } %></td>
+          <td><%=h testimonial.customer %></td>
+          <td><%=h truncate( testimonial.text, :length => 140 ) %></td>
+          <td class="a-center"><%=yes_no testimonial.is_active %></td>
+          <td class="pos a-center"><%= testimonial.position %></td>
+          <td style="width: 65px;">
+            <%= link_to "", { :action => "view", :id => testimonial }, :class => "action-link view", :title => "View" %>
+            <%= link_to "", { :action => "edit", :id => testimonial }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "delete", :id => testimonial }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? -%>
+            <td class="dragHandle">[drag]</td>
+          <% end -%>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+  <p>
+    With selected:
+    <%= link_to_remote "Activate", :url => { :action => 'activate', :is_active => 1 }, :with => 'jQuery("#items_form :checkbox").serialize()' %> /
+    <%= link_to_remote "Deactivate", :url => { :action => 'activate', :is_active => 0 }, :with => 'jQuery("#items_form :checkbox").serialize()' %>
+  </p>
+  </form>
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

@@ -1,0 +1,354 @@
+
+<% form_remote_tag :url => { :action => "edit_submit" } do -%>
+  <% fields_for :order, @current_order do |fo| -%>
+  <% fields_for :billing_address, @billing_address do |fb| -%>
+  <% fields_for :shipping_address, @shipping_address do |fs| -%>
+  <% fields_for :credit_card, @credit_card do |fc| -%>
+  
+  <div id="billing_info">
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" colspan="2">
+          <b class="formcaption">BILLING INFO:</b>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right" width="40%"><b>* E-mail:</b></td>
+        <td valign="top" align="left">
+          <%= fo.text_field :email, :class => "inputText" %>
+          <div class="error"><%= @current_order.errors.on(:email) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* First Name:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :first_name, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:first_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Last Name:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :last_name, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:last_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>Company Name:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :company, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:company) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Address:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :address1, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:address1) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right">&nbsp;</td>
+        <td valign="top" align="left">
+          <%= fb.text_field :address2, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:address2) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* City:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :city, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:city) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* State:</b></td>
+        <td valign="top" align="left">
+          <%= fb.geography_division_select "state", { :drilldown => "state", :only => { :country => "United States of America" }, :include_blank => "Select State..." }, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:state) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Zip:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :zip, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:zip) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Phone:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :phone, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:phone) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>Fax:</b></td>
+        <td valign="top" align="left">
+          <%= fb.text_field :fax, :class => "inputText" %>
+          <div class="error"><%= @billing_address.errors.on(:fax) %></div>
+        </td>
+      </tr>
+    </table>
+    <div class="separator"></div>
+  </div>
+
+
+
+
+  <div id="shipping_info">
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" colspan="2">
+          <b class="formcaption">SHIPPING INFO:</b>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" colspan="2">
+          <%= fo.check_box :shipping_is_billing, :onclick => "toggleShippingAddressTable(this.checked);" %>
+          <b>Ship items to the above billing address</b>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <div id="shipping_info_data" <% if @current_order.shipping_is_billing? -%>style="display: none;"<% end -%>>
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td align="left" colspan="2" style="padding: 10px 100px;">IMPORTANT: ALTERNATE SHIPPING ADDRESSES - If the address to which your order is being shipped differs from your billing address (the address to which your monthly credit card statement is sent), please use the toll-free number on the front or back of your card to contact your credit card company and create an "Alternate Shipping Address", which is simply a note on your account authorizing purchases that are delivered to a destination other than your billing address. Failure to do so may considerably delay the processing of your order.</td>
+      </tr>
+      <tr>
+        <td valign="top" align="right" width="40%"><b>* First Name:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :first_name, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:first_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Last Name:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :last_name, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:last_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>Company Name:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :company, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:company) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Address:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :address1, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:address1) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right">&nbsp;</td>
+        <td valign="top" align="left">
+          <%= fs.text_field :address2, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:address2) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* City:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :city, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:city) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* State:</b></td>
+        <td valign="top" align="left">
+          <%= fs.geography_division_select "state", { :drilldown => "state", :only => { :country => "United States of America" }, :include_blank => "Select State..." }, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:state) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Zip:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :zip, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:zip) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Phone:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :phone, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:phone) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>Fax:</b></td>
+        <td valign="top" align="left">
+          <%= fs.text_field :fax, :class => "inputText" %>
+          <div class="error"><%= @shipping_address.errors.on(:fax) %></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="separator"></div>  
+  
+  
+  
+  
+  
+  <div id="delivery_info">
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" colspan="2"><b class="formcaption">DELIVERY OPTIONS:</b></td>
+      </tr>
+      <tr>
+        <td align="center" colspan="2">
+
+    	    <table cellpadding="0" cellspacing="0">
+    		    <% Order::DELIVERY_METHODS.each do |dm| -%>
+    		      <% delivery_price = Order.calculate_delivery_price(@current_order.cart.total_price, dm[:code]) %>
+              <tr>
+        	      <td><%= fo.radio_button :delivery_method, dm[:code] %></td>
+        	      <td><label for="order_delivery_method_<%= dm[:code] %>"><%=h dm[:name] %></label></td>
+        	      <td style="padding-left: 10px;"><b id="delivery_price_<%= dm[:code] %>"><%= display_price_or_free(delivery_price) %></b></td>
+    			    </tr>
+    		    <% end -%>
+    	    </table>
+          <div class="error"><center><%= @current_order.errors.on(:delivery_method) %></center></div>
+
+        </td>
+      </tr>
+    </table>
+    <div class="separator"></div>
+  </div>
+
+      
+  <div id="payment_info">    
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td valign="top" align="center" colspan="2"><b class="formcaption">PAYMENT OPTIONS:</b></td>
+      </tr>
+      <tr>
+        <td valign="top" align="center" colspan="2">
+
+          <table cellpadding="0" cellspacing="0">
+            <% Order::PAYMENT_METHODS.each do |method| %>
+              <tr>
+                <td valign="top" align="left" colspan="2" >
+                  <%= fo.radio_button :payment_method,
+                        method[:code],
+                        :onchange => "changePaymentMethod(this.value)"
+                  %> <%= method[:name] %>
+                </td>
+              </tr>
+            <% end %>
+          </table>
+          <div class="error"><center><%= @current_order.errors.on(:payment_method) %></center></div>
+          
+        </td>
+      </tr>
+    </table>
+    <div class="separator"></div>
+  </div>
+
+  <div id="credit_card_info" <% unless @current_order.paid_with_card? -%>style="display: none;"<% end -%>>
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" colspan="2"><b class="formcaption">CREDIT CARD INFO:</b></td>
+      </tr>
+      <tr>
+        <td valign="top" align="right" width="40%"><b>* Card Type:</b></td>
+        <td valign="top" align="left">
+  		    <%= fc.select "cc_type",
+                Checkout::CreditCard::CC_TYPES.collect{ |cc_type| [ cc_type[:name], cc_type[:code] ] },
+                { :include_blank => "Select card type" },
+                { :class => "inputText" }
+  		    %>
+          <div class="error"><%= @credit_card.errors.on(:cc_type) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Card Number:</b></td>
+        <td valign="top" align="left">
+          <%= fc.text_field :number, :class => "inputText" %>
+          <div class="error"><%= @credit_card.errors.on(:number) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Card Security Code (CSC):</b></td>
+        <td valign="top" align="left">
+          <%= fc.text_field :verification_value, :class => "inputText", :maxlength => 4, :style => 'width: 70px; margin-right: 10px;' %>
+          <%= link_to "What's this?",
+              { :action => "csc" },
+              :popup => ['popup_csc', 'height=400, width=750, resizable=0, scrollbars=no']
+          %>
+          <div class="error"><%= @credit_card.errors.on(:verification_value) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Expiration Date:</b></td>
+        <td valign="top" align="left">
+
+          <%= fc.date_select :expires_on, {
+                  :discard_day => true,
+                  :start_year => Date.today.year,
+                  :end_year => Date.today.year + 10,
+                  :add_month_numbers => true
+                },
+                { :class => "inputTextNoWidth" }
+          %>
+
+          <div class="error"><%= @credit_card.errors.on(:expires_on) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* First Name:</b></td>
+        <td valign="top" align="left">
+          <%= fc.text_field :first_name, :class => "inputText" %>
+          <div class="error"><%= @credit_card.errors.on(:first_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>* Last Name:</b></td>
+        <td valign="top" align="left">
+          <%= fc.text_field :last_name, :class => "inputText" %>
+          <div class="error"><%= @credit_card.errors.on(:last_name) %></div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><b>Customer Service Phone:</b></td>
+        <td valign="top" align="left">
+          <%= fc.text_field :service_phone, :class => "inputText" %>
+          <div class="error"><%= @credit_card.errors.on(:service_phone) %></div>
+        </td>
+      </tr>
+    </table>
+    <div class="separator"></div>
+  </div>
+  
+  <div id="additional_info">
+    <table cellpadding="4" cellspacing="0" width="100%">
+      <tr><td align="center" colspan="2"><b class="formcaption">Comments and/or special Requests:</b></td></tr>
+      <tr>
+        <td valign="top" align="center" colspan="2">
+          <%= fo.text_area :instructions, :rows => 5, :class => "inputText", :style => "width: 250px;" %>
+          <div class="error"><center><%= @current_order.errors.on(:instructions) %></center></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="buttonDiv">
+    <%= submit_to_remote(
+          "submit", "",
+          :url => { :action => "edit_submit" },
+          :html => { :class => "button btSubmit" }
+        )
+    %>
+  </div>
+
+
+  <% end -%>
+  <% end -%>
+  <% end -%>
+  <% end -%>
+<% end -%>

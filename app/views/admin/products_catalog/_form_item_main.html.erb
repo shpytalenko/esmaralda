@@ -1,0 +1,72 @@
+
+<% content_for(:head) do -%>
+  <% javascript_tag do -%>
+    jQuery(document).ready(function() {
+      calcDiscount();
+    });
+  <% end -%>
+<% end -%>
+
+<%= f.hidden_field :copy_of %>
+
+<table class="form">
+  <tr>
+    <td class="label">SKU:</td>
+    <td class="form"><%= f.text_field :sku, :class => "f-input" %></td>
+  </tr>
+  <tr>
+    <td class="label">Name:</td>
+    <td class="form"><%= f.text_field :name, :class => "f-input long" %></td>
+  </tr>
+  <tr>
+    <td class="label">Product Type:</td>
+    <td class="form">
+      <% if @item.new_record? && @item.copy_of.blank? -%>
+        <%= f.collection_select "type_id", @product_types, :id, :name, {:include_blank => "Please Select..."}, :class => "f-input" %>
+      <% else -%>
+        <%=h @item.type.name %>
+      <% end -%>
+    </td>
+  </tr>
+  <tr>
+    <td class="label">Category:</td>
+    <td class="form">
+      <%= f.select :category_id, siger_nested_set_options(Product::Category) {|item,level| "#{'- ' * level} #{item.name}" }, {}, :class => "f-input" %>
+    </td>
+  </tr>
+  <tr>
+    <td class="label">Description:</td>
+    <td class="form"><%= f.text_area :description, :rows => 5, :class => "f-input" %></td>
+  </tr>
+  <tr>
+    <td class="label">Retail Price:</td>
+    <td class="form"><%= f.text_field :retail_price, :class => "f-input", :onkeyup => "chkfield(this);", :onchange => "resetPrices();" %></td>
+  </tr>
+  <tr>
+    <td class="label">Discount:</td>
+    <td class="form"><%= f.text_field :discount, :class => "f-input small", :onkeyup => "chkfield(this);", :onchange => "calcPrice();" %> %</td>
+  </tr>
+  <tr>
+    <td class="label">Price:</td>
+    <td class="form"><%= f.text_field :price, :class => "f-input", :onkeyup => "chkfield(this);", :onchange => "calcDiscount();" %></td>
+  </tr>
+  <tr>
+    <td class="label">Active:</td>
+    <td class="form"><%= f.check_box :is_active %></td>
+  </tr>
+  <tr>
+    <td class="label">Show On Home:</td>
+    <td class="form"><%= f.check_box :show_on_home %></td>
+  </tr>
+
+	<% if @item.copy_of.blank? -%>
+	  <tr>
+	    <td class="label">After submit go to:</td>
+	    <td class="form nowrap">
+	      <%= f.radio_button :go_after_submit, "list" %> <label for="item_go_after_submit_list">List Products</label>
+	      <%= f.radio_button :go_after_submit, "edit_item" %> <label for="item_go_after_submit_edit_item">Keep Editing</label>
+	      <%= f.radio_button :go_after_submit, "new_item" %> <label for="item_go_after_submit_new_item">Add New Product</label>
+	    </td>
+	  </tr>
+	<% end -%>
+</table>

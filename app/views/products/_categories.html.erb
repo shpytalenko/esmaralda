@@ -1,0 +1,37 @@
+
+<% if @categories_count > 0 -%>
+
+<% block_caption ||= "Categories" %>
+
+<div class="contentBaseBlock">
+	<div class="contentBaseBlockHeader"><%= block_caption %></div>
+	<div class="contentBaseBlockData">
+		
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="items">
+		<% items_rows = items.in_groups_of(4, nil) %>
+		<% items_rows.each_with_index do |items_row, i| %>
+		  <tr>
+		    <% items_row.each_with_index do |item, j| %>
+		      <% unless item.nil? %>
+		        <td <% if j!=3 %>class="borderRight"<% end %> style="width: 25%;">
+		          <div class="item">
+		            <span class="itemCaption"><%=h item.name %></span><br/>
+		            <a href="/<%= link %>/<%= item.permalink %>" title=""><img src="<%= item.image.url(:thumb) %>" alt="" /></a>
+		          </div>
+		        </td>
+		      <% else %>
+		        <td style="width: 25%;">&nbsp;</td>
+		      <% end %>
+		    <% end %>
+		  </tr>
+		  <% if i!=(items_rows.size-1) %>
+		    <tr><td colspan="4" class="tableContentSpacer"><img src="/sitepics/spacer.gif" alt=""/></td></tr>
+		  <% end %>
+		<% end %>
+		</table>
+
+	</div>
+</div>
+<div class="blockSpacerRightColumn"></div>
+<% end -%>
+

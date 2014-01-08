@@ -1,0 +1,114 @@
+
+<div class="contentClearTextBlock">
+  <% unless @page.blank? -%>
+    <h1><%= @page.name %></h1>
+    <%= @page.content %>
+  <% end -%>
+</div>
+
+<div class="contentClearTextBlock">
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td valign="top" align="left" width="50%">
+        <b>BILLING INFO:</b><br /><br />
+        <%=h @billing_address.name %><br />
+        <%=h @billing_address.company %><br />
+        <%=h @billing_address.address1 %>
+        <% unless @billing_address.address2.blank? -%>
+          <br /><%=h @billing_address.address2 %>
+        <% end -%><br />
+        <%=h @billing_address.city %>, <%=h @billing_address.state %>, <%=h @billing_address.zip %><br />
+        Phone: <%=h @billing_address.phone %><br />
+        Fax: <%=h @billing_address.fax %><br />
+        E-mail: <%=h @order.email %>
+      </td>
+      
+      <td valign="top" align="left" width="50%">
+        <b>SHIPPING INFO:</b><br /><br />
+        <%=h @shipping_address.name %><br />
+        <%=h @shipping_address.company %><br />
+        <%=h @shipping_address.address1 %>
+        <% unless @shipping_address.address2.blank? -%>
+          <br /><%=h @shipping_address.address2 %>
+        <% end -%><br />
+        <%=h @shipping_address.city %>, <%=h @shipping_address.state %>, <%=h @shipping_address.zip %><br />
+        Phone: <%=h @shipping_address.phone %><br />
+        Fax: <%=h @shipping_address.fax %><br />
+        Shipping method: <%=h @order.display_delivery_method %> - <b><%= display_price_or_free(@order.delivery_price) %></b><br />
+      </td>
+    </tr>
+    
+    <tr>
+      <td valign="top" align="left" style="padding-top: 30px;">
+        <b>PAYMENT INFO:</b><br /><br />
+        Payment method: <%=h @order.display_payment_method %><br />
+        <% unless @credit_card.blank? -%>
+          Card Number: <%=h @credit_card.display_number %><br />
+        <% end -%>
+      </td>
+      
+      <td valign="top" align="left" style="padding-top: 30px;">
+        <% unless @order.instructions.blank? -%>
+          <b>ADDITIONAL INFO:</b><br /><br />
+          Comments: <%=h @order.instructions %><br />
+        <% else -%>
+          &nbsp;
+        <% end -%>
+      </td>
+    </tr>
+    
+  </table>
+  
+  <div style="padding-top: 30px;">
+
+    <% unless @order.cart.cart_items.blank? -%>
+      <b>PRODUCTS INFO:</b><br /><br />
+      <table cellpadding="0" cellspacing="0" width="100%" border="0" class="shoppingCart">
+        <tr>
+          <th align="left">Product</th>
+          <th align="center" width="15%">Price</th>
+          <th align="center" width="5%">Qty</th>
+          <th align="center" width="15%">Total</th>
+        </tr>
+
+        <% @order.cart.cart_items.each do |cart_item| -%>
+          <tr>
+            <td width="130" style="padding-top: 15px; padding-bottom: 15px;"><b><%=h cart_item.name %></b></td>
+            <td align="center"><%= number_to_currency(cart_item.price) %></td>
+            <td align="center"><%= cart_item.quantity %></td>
+            <td align="center"><%= number_to_currency(cart_item.full_price) %></td>
+          </tr>
+        <% end -%>
+
+        <tr class="totalRow">
+          <td align="left">&nbsp;</td>
+          <td align="right" colspan="3" style="padding-right: 15px;">
+            <table cellpadding="0" cellspacing="0" class="total">
+              <tr>
+                <td align="left">Items:</td>
+                <td align="right"><%= number_to_currency(@order.items_price) %></td>
+              </tr>
+              <tr>
+                <td align="left">Shipping:</td>
+                <td align="right"><%= display_price_or_free(@order.delivery_price) %></td>
+              </tr>
+              <tr>
+                <td align="left">Total:</td>
+                <td align="right"><span class="redPrice"><span class="redPrice"><%= number_to_currency(@order.total_price) %></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+    <% end -%>
+
+  </div>
+  
+  <div style="padding-top: 30px;">
+    <center><a href="/products">Continue shopping</a></center>
+  </div>
+
+</div>
+

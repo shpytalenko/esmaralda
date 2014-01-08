@@ -1,0 +1,12 @@
+<% title "Orders" %>
+
+<div id="items_div">
+  <%= render :partial => "table" %>
+</div>
+
+<% javascript 'jquery-1.3.2.min.js', 'table-interface.js' %>
+<% content_for(:head) do -%>
+  <% javascript_tag do -%>
+    initTableInterface('items_table');
+  <% end -%>    
+<% end -%>

@@ -1,0 +1,24 @@
+<% title "Staff" %>
+
+<table class="items">
+  <tr>
+    <td class="label">Name:</td>
+    <td class="field"><%=h @item.name %></td>
+  </tr>
+  </tr>
+    <td class="label">E-mail:</td>
+    <td class="field"><%= auto_link @item.email, :all, :target => "_blank" %></td>
+  </tr>
+  <tr>
+    <td class="label">Login:</td>
+    <td class="field"><%=h @item.login %></td>
+  </tr>
+</table>
+
+
+<%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+<%= link_to "Edit", { :action => "edit", :id => @item }, :class => "action-link-text edit" %>
+<%= link_to "Delete", { :action => "delete", :id => @item }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+<%= link_to "New Staff", { :action => "new" }, :class => "action-link-text add" %>
+<div class="clear"></div>
+

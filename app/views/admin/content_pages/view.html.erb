@@ -1,0 +1,36 @@
+<% title "Page \"#{@page.name}\"" %>
+
+<table class="items">
+  <tr>
+    <td class="label">URL:</td>
+    <td class="field"><%=h @page.url %></td>
+  </tr>
+  <tr>
+    <td class="label">Name:</td>
+    <td class="field"><%=h @page.name %></td>
+  </tr>
+  <tr>
+    <td class="label">HEAD Title:</td>
+    <td class="field"><%=h @page.meta_title %></td>
+  </tr>
+
+	<% if false %>
+	  <tr>
+	    <td class="label">META Keywords:</td>
+	    <td class="field"><%=h @page.meta_keywords %></td>
+	  </tr>
+	  <tr>
+	    <td class="label">META Description:</td>
+	    <td class="field"><%=h @page.meta_description %></td>
+	  </tr>
+	<% end %>
+
+</table>
+
+<%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+<%= link_to "Edit", { :action => "edit", :id => @page }, :class => "action-link-text edit" %>
+<%= link_to "Content", { :action => "edit_content", :id => @page }, :class => "action-link-text edit-content" %>
+<%= link_to "Delete", { :action => "delete", :id => @page }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+<%= link_to "New Page", { :action => "new" }, :class => "action-link-text add" %>
+<div class="clear"></div>
+

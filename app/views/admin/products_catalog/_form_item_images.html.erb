@@ -1,0 +1,60 @@
+
+  <% unless @images.blank? -%>
+    <p class="subcaption"><b>Existing Images:</b></p>
+    <div>
+      <ul id="images_sortable" class="images_list products">
+        <% @images.each do |image| -%>
+          <li id="sort_id_<%= image.id %>">
+            <center>
+              <%= image_tag(image.file.url(:thumb), :alt => "") %><br />
+              <label><%= check_box_tag "delete_id[]", image.id, false, { :id => nil } %> Delete</label>
+            </center>
+          </li>
+        <% end -%>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    
+		<% if @images.size > 1 -%>
+	    <% javascript '/libs/jquery-ui-1.7.2.custom/jquery-ui-1.7.2.custom.min.js' %>
+	    <% content_for(:head) do -%>
+	      <% javascript_tag do %>
+	        jQuery(document).ready(function() {
+	          jQuery("#images_sortable").sortable({
+	            tolerance: 'pointer'
+	          }).disableSelection();
+
+	          jQuery("#images_sortable li").hover(
+	            function () {
+	              jQuery(this).addClass("hover");
+	              jQuery("#images_sortable li").not(this).removeClass("hover");
+	            },
+	            function () {
+	              jQuery(this).removeClass("hover");
+	            }
+	          );
+          
+	          jQuery('#images_sortable').bind('sortupdate', function(event, ui) {
+	            var data = jQuery('#images_sortable').sortable('serialize');
+	            jQuery.get('<%= url_for(:action => :sort_images) %>', data, null);
+	          });
+	
+						ge("images_sortable").style.cursor = 'move';
+          
+	        });
+	      <% end %>
+	    <% end -%>
+    
+	  <% end -%>
+  <% end -%>
+
+
+  
+  <p class="subcaption"><b>Upload New Images:</b></p>
+  <div id="images_upload_div">
+    <%= render :partial => 'image' %>
+  </div>
+  <p>
+    <%= add_file_upload_link "Add an image" %>
+  </p>
+

@@ -1,0 +1,31 @@
+
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: esmeral1_esmeralda
+  pool: 5
+  username: root
+  password: djusepo
+  host: localhost
+# socket: '/tmp/mysql.sock'
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: none
+  pool: 5
+  username: none
+  password: none
+  host: localhost
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: esmeral1_esmeralda
+  pool: 5
+  username: root
+  password: djusepo
+  host: localhost

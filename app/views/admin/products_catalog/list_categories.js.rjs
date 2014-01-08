@@ -1,0 +1,6 @@
+
+page.replace_html "categories_div", :partial => "table_categories"
+
+page.call 'initTableDnD', "categories_table", "#{ url_for :action => 'shift_category' }"
+page.call 'initTableInterface', "categories_table"
+

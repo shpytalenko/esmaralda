@@ -1,0 +1,88 @@
+
+<% form_for :user, :url => url, :html => { :multipart => true } do |f| -%>
+  <%= f.error_messages %>
+
+  <table class="form">
+	  <tr>
+      <td class="label">E-mail:</td>
+      <td class="field"><%= f.text_field :email, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Password:</td>
+      <td class="field"><%= f.password_field :password, :class => "f-input" %></td>
+    </tr>
+	  <tr>
+	    <td class="label">Password Confirmation:</td>
+	    <td class="field"><%= f.password_field :password_confirmation, :class => "f-input" %></td>
+	  </tr>
+    <tr>
+      <td class="label">First Name:</td>
+      <td class="field"><%= f.text_field :first_name, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Last Name:</td>
+      <td class="field"><%= f.text_field :last_name, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Company:</td>
+      <td class="field"><%= f.text_field :company, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Address:</td>
+      <td class="field"><%= f.text_field :address1, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">&nbsp;</td>
+      <td class="field"><%= f.text_field :address2, :class => "f-input" %></td>
+    </tr>
+	  <tr>
+	    <td class="label">City:</td>
+	    <td class="field"><%= f.text_field :city, :class => "f-input" %></td>
+	  </tr>
+	  <tr>
+	    <td class="label">State:</td>
+	    <td class="field">
+	      <%= f.geography_division_select(
+	            "state", {
+	              :drilldown => "state",
+	              :only => {
+	                :country => "United States of America"
+	              },
+	              :prompt => "Select State..."
+	            }, :class => "f-input"
+	          )
+	      %>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td class="label">Zip:</td>
+	    <td class="field"><%= f.text_field :zip, :class => "f-input" %></td>
+	  </tr>
+	  <tr>
+	    <td class="label">Phone:</td>
+	    <td class="field"><%= f.text_field :phone, :class => "f-input" %></td>
+	  </tr>
+	  <tr>
+	    <td class="label">Fax:</td>
+	    <td class="field"><%= f.text_field :fax, :class => "f-input" %></td>
+	  </tr>
+    <tr>
+      <td class="label">Note:</td>
+      <td class="field"><%= f.text_area :note, :rows => 5, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Active:</td>
+      <td class="field"><%= f.check_box :is_active %></td>
+    </tr>
+  </table>
+
+  <p><%= f.submit "Submit" %><p>
+<% end -%>
+
+
+<%= link_to "Back To Users", { :action => "list" }, :class => "action-link-text back" %>
+<% unless @user.new_record? -%>
+	<%= link_to "View", { :action => "view", :id => @user }, :class => "action-link-text view" %>
+<% end -%>
+<div class="clear"></div>
+

@@ -1,0 +1,105 @@
+
+<% javascript '/libs/jqModal/jqModal.js' %>
+<% stylesheet '/libs/jqModal/jqModal.css' %>
+
+<%= render :partial => 'popup_init' %>
+
+<% i = 0 %>
+
+<% unless @form_fields.blank? -%>
+  <table class="form">
+    <% for form_field in @form_fields do -%>
+      <% data = @item_data_arr[form_field.id] || form_field.data.new(:item_id => @item.id) %>
+      <% if form_field.control == "group" -%>
+        <tr>
+          <td colspan="2" style="padding-top: 10px;"><b><%= form_field.name %>:</b></td>
+        </tr>
+      <% else -%>
+        <tr>
+          <td><%= form_field.name %>:</td>
+          <td>
+						<!-- %= i % -->
+						<!-- %= data.new_record? ? "(new)" : "(exist)" % -->
+
+						
+            <% f.fields_for :data, data do |fd| -%>
+
+							<%= fd.hidden_field :item_id %>
+							<%= fd.hidden_field :form_field_id %>
+
+              <% if form_field.control == "text_field" -%>
+
+                <%= fd.text_field :value_string, :class => "f-input" %>
+
+	            <% elsif form_field.control == "text_area" -%>
+
+	              <%= fd.text_area :value_text, :rows => 5, :class => "f-input" %>
+
+              <% elsif form_field.control == "select" -%>
+
+                <!-- % data.value_integer = data.value_integer.to_i % -->
+                <div style="float: left;">
+                  <%= fd.collection_select :value_integer,
+                    @field_values_arr[form_field.field_id],
+                    :id, :value,
+                    { :include_blank => "Please Select..." },
+                    :class => "f-input",
+                    :rel => "field_id_#{form_field.field_id}"
+                  %>
+                </div>
+                <%= link_to "", { :controller => "product_field_values", :action => "new_popup", :field_id => form_field.field_id, :counter => i, :control => "select" }, :title => "Add Value To #{form_field.field.name} Field", :class => "action-link add jqm_popup" %>
+                <div class="clear"></div>
+
+	 	        	<% elsif form_field.control == "radio" -%>
+								
+  							<div style="float: left;" id="container_radio_<%= i %>">
+  								<% unless @field_values_arr[form_field.field_id].blank? -%>
+  									<% for value in @field_values_arr[form_field.field_id] do -%>
+  									  <div style="padding-bottom: 2px;">
+  										  <label>
+  										    <%= fd.radio_button :value_integer, value.id %> <%= value.value %>
+  										  </label>
+  										</div>
+  									<% end -%>
+  								<% end -%>
+								</div>
+								<%= link_to "", { :controller => "product_field_values", :action => "new_popup", :field_id => form_field.field_id, :counter => i, :control => "radio" }, :title => "Add Value To #{form_field.field.name} Field", :class => "action-link add jqm_popup" %>
+                <div class="clear"></div>
+								
+	 	        	<% elsif form_field.control == "multiple" -%>
+								
+								<%= fd.hidden_field :value_set, :value => "" %>
+								<% data_set = [] %>
+								<% data_set = data.value_set.split(",") unless data.value_set.blank? %>
+								<div style="float: left;" id="container_multiple_<%= i %>">
+  								<% unless @field_values_arr[form_field.field_id].blank? -%>
+  									<% for value in @field_values_arr[form_field.field_id] do -%>
+  										<div style="padding-bottom: 2px;">
+  											<label>
+  												<%= check_box_tag "data_set[#{i}][]", value.id, data_set.include?(value.id.to_s), :id => nil %> <%= value.value %>
+  											</label>
+  										</div>
+  									<% end -%>
+  								<% end -%>
+								</div>
+								<%= link_to "", { :controller => "product_field_values", :action => "new_popup", :field_id => form_field.field_id, :counter => i, :control => "multiple" }, :title => "Add Value To #{form_field.field.name} Field", :class => "action-link add jqm_popup" %>
+                <div class="clear"></div>
+                
+              <% end -%>
+							<% i=i+1 %>
+							
+            <% end -%>
+          </td>
+        </tr>
+      <% end -%>
+    <% end -%>
+  </table>
+<% end -%>
+
+
+
+
+
+
+
+

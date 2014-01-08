@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="generator" content="" />
+
+	<style type="text/css" media="screen">
+		img { border: none; margin: 3px; }
+	</style>
+
+  <script type="text/javascript">
+    // function MM_preloadImages() {
+    //   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    //   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    //   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    // }
+    // 
+    // function MM_swapImgRestore() {
+    //   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    // }
+    // 
+    // function MM_findObj(n, d) {
+    //   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    //     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+    //   if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    //   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    //   if(!x && d.getElementById) x=d.getElementById(n); return x;
+    // }
+    // 
+    // function MM_swapImage() {
+    //   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+    //   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    // }
+
+    function preload_images() {
+			var args=preload_images.arguments;
+			for (i=0; i<args.length; i++) { img=new Image(); img.src=args[i]; }
+    }
+
+		function roll_image(target,src) {
+			document.getElementById(target).src=src;
+		}
+
+		<% unless @images.blank? -%>
+			preload_images('<%= @images.map{ |image| image.url(:medium, false) }.join("', '") %>');
+		<% end -%>
+
+  </script>
+</head>
+<body>
+
+<div>
+<center>
+
+
+      <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td valign="top">
+            <table cellpadding="0" cellspacing="0" border="0" id="imageBig">
+              <tr>
+                <td align="center" valign="middle" style="width: 405px; height: 405px;">
+									<img src="<%= @main_image.url(:medium, false) %>" name="centerimage" id="centerimage" alt="<%=h @item.sku %>" />
+								</td>
+              </tr>
+            </table>
+
+            <% unless @images.blank? or @images.size == 1 -%>
+              <table cellpadding="0" cellspacing="0" border="0" id="imageSmall">
+              <% per_row = @images.size >=4 ? 4 : @images.size %>
+              <% images_rows = @images.in_groups_of(per_row, nil) %>
+              <% images_rows.each_with_index do |images_row, i| -%>
+                <tr>
+                  <% images_row.each_with_index do |image, j| -%>
+                    <% unless image.nil? -%>
+                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;">
+                        <!-- a href="#" onmouseover="MM_swapImage('centerimage','','< %= image.url(:medium, false) % >',1)"><img src="< %= image.url(:thumb, false) % >" alt="" /></a -->
+                        <a href="#" onmouseover="roll_image('centerimage','<%= image.url(:medium, false) %>')"><img src="<%= image.url(:thumb, false) %>" alt="" /></a>
+                      </td>
+                    <% else -%>
+                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;">&nbsp;</td>
+                    <% end -%>
+                  <% end -%>
+                </tr>
+              <% end -%>
+                <tr><td align="center" valign="middle" colspan="<%= per_row %>" class="grey">Rollover images</td></tr>
+              </table>
+            <% end -%>
+
+          </td>
+          <td valign="top" class="padLeft30">
+            <h1><%= @item.name %></h1>
+
+            <%= @item.description %>
+
+
+
+            <% unless @form_fields.blank? -%>
+              <div class="rightText">
+                <% for form_field in @form_fields do -%>
+                  <% data = @item_data_arr[form_field.id] || form_field.data.new(:item_id => @item.id) %>
+                  <% if form_field.control == "group" -%>
+                    <h1 class="red"><%= form_field.name %></h1>
+                  <% elsif !data.value_string.blank? || !data.value_text.blank? || !data.value_integer.blank? || !data.value_set.blank?  -%>
+                    <%=h form_field.name %>:&nbsp;
+                    <% if form_field.control == "text_field" %>
+                      <b><%=h data.value_string %></b><br />
+									  <% elsif form_field.control == "text_area" %>
+                      <b><%=h data.value_text %></b><br />
+                    <% elsif ["select", "radio"].include?(form_field.control) %>
+                      <b><%= @field_values_by_ids[data.value_integer] %></b><br />
+								    <% elsif form_field.control == "multiple" %>
+                      <b><%= data.value_set.split(",").map { |val| @field_values_by_ids[val.to_i] }.join(", ") %></b><br />
+                    <% end -%>
+                  <% end -%>
+                <% end -%>
+              </div>
+            <% end -%>
+
+
+            <div class="rightText" style="padding-top: 25px;">
+              <% unless @item.retail_price.blank? %>
+                <b class="redB14">Original price:</b> <b><%=number_to_currency @item.retail_price %></b><br />
+              <% end %>
+              <b class="redB14">Our Price:</b> <b><%=number_to_currency @item.price %></b><br />
+
+              <% unless @item.retail_price.blank? %>
+                <% saving_amount = @item.retail_price - @item.price %>
+                <% saving_percent = 100 - @item.price*100/@item.retail_price %>
+                <b class="redB14">You Save: </b><b><%= number_to_currency(saving_amount) %> (<%= number_to_percentage(saving_percent, :precision => 2) %>)</b>
+              <% end %>
+            </div>
+
+
+
+          </td>
+        </tr>
+      </table>
+
+</body>
+</html>

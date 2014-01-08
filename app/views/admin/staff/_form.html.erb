@@ -1,0 +1,37 @@
+
+<% form_for :item, :url => url do |f| -%>
+  <%= f.error_messages %>
+
+  <table class="form">
+    <tr>
+      <td class="label">Name:</td>
+      <td class="field"><%= f.text_field :name, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">E-mail:</td>
+      <td class="field"><%= f.text_field :email, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Login:</td>
+      <td class="field"><%= f.text_field :login, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Password:</td>
+      <td class="field"><%= f.password_field :password, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Password Confirmation:</td>
+      <td class="field"><%= f.password_field :password_confirmation, :class => "f-input" %></td>
+    </tr>
+  </table>
+
+  <p><%= f.submit "Submit" %><p>
+<% end -%>
+
+
+<%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+<% unless @item.new_record? -%>
+	<%= link_to "View", { :action => "view", :id => @item }, :class => "action-link-text view" %>
+<% end -%>
+<div class="clear"></div>
+

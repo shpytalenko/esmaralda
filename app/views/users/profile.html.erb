@@ -1,0 +1,15 @@
+<% javascript :defaults %>
+
+<div class="contentClearTextBlock">
+  <h1>Profile Editing</h1>
+</div>
+
+<div class="contentClearTextBlock">
+  <center>
+  
+    <div id="registration_form_div">
+      <%= render :partial => 'form', :locals => { :url => profile_update_path } %>
+    </div>
+    
+  </center>
+</div>

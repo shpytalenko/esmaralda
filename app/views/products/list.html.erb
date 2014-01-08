@@ -1,0 +1,7 @@
+
+<%= render :partial => "navigation" %>
+<%= render :partial => "categories", :locals=> {:items => @categories, :link => @path_str} %>
+<%= render :partial => "items", :locals=> {:items => @items, :link => @path_str} %>
+<%= render :partial => "nofound" %>
+
+

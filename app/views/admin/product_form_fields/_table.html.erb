@@ -1,0 +1,47 @@
+
+<% if @form_fields_count > 0 -%>
+  <p><%= pluralize(@form_fields_count, "item") %> found</p>
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Control</th>
+        <th>Source Field</th>
+        <th>Pos.</th>
+        <th>Actions</th>
+        <% if sort_allowed? -%>
+          <th>&nbsp;</th>
+        <% end -%>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for form_field in @form_fields -%>
+        <tr id="items_table_<%= form_field.id %>">
+        
+          <% if form_field.control == "group" -%>
+            <td colspan="3" class="a-center"><b><%=h form_field.name %></b></td>
+          <% else -%>
+            <td><%=h form_field.name %></td>
+            <td><%=h @control_types_hash[form_field.control] %></td>
+            <td><%= link_to(form_field.field.name, :controller => "product_field_values", :action => "list", :field_id => form_field.field_id) unless form_field.field.blank? %></td>
+          <% end -%>
+          
+          <td class="pos a-center"><%= form_field.position %></td>
+
+          <td style="width: 45px;">
+            <%= link_to_remote "", :url => { :action => "edit", :id => form_field, :type_id => form_field.type_id }, :html => { :class => "action-link edit", :title => "Edit" } %>
+            <%= link_to "", { :action => "delete", :id => form_field, :type_id => form_field.type_id }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? -%>
+            <td class="dragHandle">[drag]</td>
+          <% end -%>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>
+

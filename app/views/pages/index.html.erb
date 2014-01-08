@@ -1,0 +1,9 @@
+
+<div class="flashTeaser">
+  <img src="/sitepics/banner.jpg"/>
+</div>
+<div class="blockSpacerRightColumn"></div>
+
+<% if @items_count > 0 -%>
+	<%= render :partial => "products/items", :locals=> {:items => @items, :link => @path_str, :block_caption => "Feature Products"} %>
+<% end -%>

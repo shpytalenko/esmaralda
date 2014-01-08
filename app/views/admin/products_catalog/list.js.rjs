@@ -1,0 +1,15 @@
+
+page.replace_html "navigation_path", navigation_path(@navigation_path)
+
+page.replace_html "categories_div", :partial => "table_categories"
+page.replace_html "items_div", :partial => "table_items"
+page.replace_html "not_found", :partial => "not_found"
+
+page.call 'initTableDnD', "categories_table", "#{ url_for :action => 'shift_category' }"
+
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_item_position' }" if @search_mode == "items"
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_item_position_on_home' }" if @search_mode == "items_on_home"
+
+page.call 'initTableInterface', "categories_table"
+page.call 'initTableInterface', "items_table"
+

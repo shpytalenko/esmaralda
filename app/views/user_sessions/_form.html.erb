@@ -1,0 +1,22 @@
+
+<% remote_form_for @user_session, :url => login_submit_path do |f| %>
+  <input type="image" src="/sitepics/pix.gif" />
+  <table cellpadding="4" cellspacing="0" width="100%">
+    <tr>
+      <td valign="top" align="center" colspan="2"><span class="error"><%= @user_session.errors.on_base %></span></td>
+    </tr>
+    <tr>
+      <td valign="top" align="right" width="40%"><b>* E-mail:</b></td>
+      <td valign="top" align="left"><%= f.text_field :email, :class => "inputText" %></td>
+    </tr>
+    <tr>
+      <td valign="top" align="right"><b>* Password:</b></td>
+      <td valign="top" align="left"><%= f.password_field :password, :class => "inputText" %></td>
+    </tr>
+  </table>
+  <div class="buttonDiv">
+    <%= submit_to_remote "submit", "", :url => login_submit_path, :html => { :class => "button btLogin" } -%>
+    &nbsp;&nbsp;
+    <%= button_link_to "", :url => signup_path, :html => { :class => "button btRegister" } %>
+  </div>
+<% end %>

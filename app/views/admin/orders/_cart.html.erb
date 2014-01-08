@@ -1,0 +1,36 @@
+
+<% unless @order.cart.cart_items.blank? -%>
+  <div id="order_items_div" style="margin-top: 30px;">
+    <b>PRODUCTS INFO:</b><br /><br />
+    <table id="order_items" class="items" width="750">
+      <tr>
+        <th>SKU</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Total Price</th>
+      </tr>
+      <% for item in @order.cart.cart_items -%>
+        <tr id="order_items_<%= item.id %>">
+          <td><%=h item.sku %></td>
+          <td><%=h item.name %></td>
+          <td class="a-right"><%=h number_to_currency(item.price) %></td>
+          <td class="a-center"><%=h item.quantity %></td>
+          <td class="a-right"><%=h number_to_currency(item.full_price) %></td>
+        </tr>
+      <% end -%>
+      <tr>
+        <td class="a-right" colspan="4">Items:</td>
+        <td class="a-right"><%= number_to_currency(@order.items_price) %></td>
+      </tr>
+      <tr>
+        <td class="a-right" colspan="4">Shipping:</td>
+        <td class="a-right"><%=h display_price_or_free(@order.delivery_price) %></td>
+      </tr>
+      <tr>
+        <td class="a-right" colspan="4">Total:</td>
+        <td class="a-right"><b><%= number_to_currency(@order.total_price) %></b></td>
+      </tr>
+    </table>
+  <div>
+<% end -%>

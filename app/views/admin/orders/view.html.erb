@@ -1,0 +1,71 @@
+<% title "Order ##{@order.number}" %>
+
+<table cellpadding="0" cellspacing="0" width="750">
+  <tr>
+    <td valign="top" align="left" width="50%" style="padding-top: 30px;">
+      <b>BILLING INFO:</b><br /><br />
+      <%=h @billing_address.name %><br />
+      <%=h @billing_address.company %><br />
+      <%=h @billing_address.address1 %>
+      <% unless @billing_address.address2.blank? -%>
+        <br /><%=h @billing_address.address2 %>
+      <% end -%><br />
+      <%=h @billing_address.city %>, <%=h @billing_address.state %>, <%=h @billing_address.zip %><br />
+      Phone: <%=h @billing_address.phone %><br />
+      Fax: <%=h @billing_address.fax %><br />
+      E-mail: <%= auto_link @order.email, :all, :target => "_blank" %><br />
+    </td>
+    
+    <td valign="top" align="left" width="50%" style="padding-top: 30px;">
+      <b>SHIPPING INFO:</b><br /><br />
+      <%=h @shipping_address.name %><br />
+      <%=h @shipping_address.company %><br />
+      <%=h @shipping_address.address1 %>
+      <% unless @shipping_address.address2.blank? -%>
+        <br /><%=h @shipping_address.address2 %>
+      <% end -%><br />
+      <%=h @shipping_address.city %>, <%=h @shipping_address.state %>, <%=h @shipping_address.zip %><br />
+      Phone: <%=h @shipping_address.phone %><br />
+      Fax: <%=h @shipping_address.fax %><br />
+      Shipping method: <%=h @order.display_delivery_method %> - <b><%= display_price_or_free(@order.delivery_price) %></b><br />
+    </td>
+  </tr>
+  
+  <tr>
+    <td valign="top" align="left" style="padding-top: 30px;">
+      <b>PAYMENT INFO:</b><br /><br />
+      Payment method: <%=h @order.display_payment_method %><br />
+      <% unless @credit_card.blank? -%>
+        Credit Card Type: <%=h @credit_card.display_cc_type %><br />
+        Card Number: <%=h @credit_card.number %><br />
+        Card Security Code (CSC): <%=h @credit_card.verification_value %><br />
+        Expiration Date: <%=h @credit_card.expires_on.strftime("%Y-%m") %><br />
+        Name On Card: <%=h @credit_card.name %><br />
+        Customer Service Phone: <%=h @credit_card.service_phone %><br />
+      <% end -%>
+    </td>
+    
+    <td valign="top" align="left" style="padding-top: 30px;">
+      <% unless @order.instructions.blank? -%>
+        <b>ADDITIONAL INFO:</b><br /><br />
+        Comments: <%=h @order.instructions %><br />
+      <% else -%>
+        &nbsp;
+      <% end -%>
+    </td>
+  </tr>
+  
+</table>
+
+<%= render :partial => "cart" %>
+
+
+<%= link_to "Back To Orders", { :action => "list" }, :class => "action-link-text back" %>
+<%= link_to "Delete Order", { :action => "delete", :id => @order }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+<div class="clear"></div>
+
+
+
+
+
+

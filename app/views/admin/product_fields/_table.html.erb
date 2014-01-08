@@ -1,0 +1,39 @@
+<% if @fields_count > 0 -%>
+  <p><%= pluralize(@fields_count, "field") %> found</p>
+
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :name, :as => "Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :control, :as => "Control" %></th>
+        <th>Values</th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :position, :as => "Pos." %></th>
+        <th>Actions</th>
+        <% if sort_allowed? -%>
+          <th>&nbsp;</th>
+        <% end -%>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for field in @fields -%>
+        <tr id="items_table_<%= field.id %>">
+          <td><%=h field.name %></td>
+          <td><%=h @control_types_hash[field.control] %></td>
+          <td class="a-center"><%= link_to pluralize(field.values.size, "value"), { :controller => "product_field_values", :action => "list", :field_id => field }, :title => "Edit Values" %></td>
+          <td class="pos a-center"><%= field.position %></td>
+          <td style="width: 45px;">
+            <%= link_to "", { :action => "edit", :id => field }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "delete", :id => field }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? -%>
+            <td class="dragHandle">[drag]</td>
+          <% end -%>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

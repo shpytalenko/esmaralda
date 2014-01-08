@@ -1,0 +1,7 @@
+
+page.hide "flash"
+
+page.replace_html "items_div", :partial => "table"
+
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_position' }"
+page.call 'initTableInterface', "items_table"

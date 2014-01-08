@@ -1,0 +1,40 @@
+<% if @pages_count > 0 -%>
+  <p><%= @pages_count %> pages found</p>
+
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :url, :as => "System Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :name, :as => "Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :position, :as => "Pos." %></th>
+        <th>Actions</th>
+        <% if sort_allowed? -%>
+          <th>&nbsp;</th>
+        <% end -%>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for page in @pages -%>
+        <tr id="items_table_<%= page.id %>">
+          <td><%=h page.system_name %></td>
+          <td><%=h page.name %></td>
+          <td class="pos a-center"><%= page.position %></td>
+          <td style="width: 65px;">
+            <%= link_to "", { :action => "edit", :id => page }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "edit_content", :id => page }, :class => "action-link edit-content", :title => "Edit Content" %>
+            <% if in_developer_mode? %>
+              <%= link_to "", { :action => "delete", :id => page }, :class => "action-link delete", :title => "Delete" %>
+            <% end %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? -%>
+            <td class="dragHandle">[drag]</td>
+          <% end -%>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

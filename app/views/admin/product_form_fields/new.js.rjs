@@ -1,0 +1,9 @@
+
+page.replace_html "form_div",
+  :partial => "form",
+  :locals => {
+    :url => { :action => "create", :type_id => @type },
+    :caption => "Add New Field"
+  }
+
+page.call 'initProductFormFieldsForm'

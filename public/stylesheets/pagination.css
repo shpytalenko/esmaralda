@@ -1,0 +1,29 @@
+
+p.pagination {
+  /*font-weight: bold;*/
+  margin-top: 15px;
+}
+
+.pagination a, .pagination span {
+  padding: 0px 3px;
+  font-weight: normal;
+}
+
+.pagination a {
+  margin: 0 2px;
+  border: 1px solid #CCCCCC;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  border: 1px solid #83B582;
+  background-color: #E2EEE2;
+}
+
+.pagination span.disabled {
+  color: #b1aab1;
+}
+
+.pagination span.current {
+  color: #000000;
+}

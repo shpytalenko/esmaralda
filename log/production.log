@@ -1,0 +1,2397 @@
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `system_pages`):
+  app/models/system_page.rb:3
+  app/controllers/application_controller.rb:33:in `render_404'
+  app/controllers/application_controller.rb:31:in `render_404'
+  app/controllers/products_controller.rb:12:in `add_to_cart'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `system_pages`):
+  app/models/system_page.rb:3
+  app/controllers/application_controller.rb:33:in `render_404'
+  app/controllers/application_controller.rb:31:in `render_404'
+  app/controllers/products_controller.rb:27:in `list_or_item'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActionController::UnknownAction (No action responded to ){F. Actions: init_table_dnd):
+  
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `system_pages`):
+  app/models/system_page.rb:3
+  app/controllers/application_controller.rb:33:in `render_404'
+  app/controllers/application_controller.rb:31:in `render_404'
+  app/controllers/products_controller.rb:27:in `list_or_item'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `system_pages`):
+  app/models/system_page.rb:3
+  app/controllers/application_controller.rb:33:in `render_404'
+  app/controllers/application_controller.rb:31:in `render_404'
+  app/controllers/products_controller.rb:27:in `list_or_item'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `product_items`):
+  app/models/product/item.rb:5
+  app/controllers/pages_controller.rb:18:in `index'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `system_pages`):
+  app/models/system_page.rb:3
+  app/controllers/application_controller.rb:33:in `render_404'
+  app/controllers/application_controller.rb:31:in `render_404'
+  app/controllers/products_controller.rb:27:in `list_or_item'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Got error 28 from storage engine: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActionController::UnknownHttpMethod (TRACE, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownHttpMethod (TRACK, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::RoutingError (No route matches "*" with {:method=>:options}):
+  
+
+
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:18:in `logout'
+
+
+ActionController::UnknownHttpMethod (NESSUS, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownHttpMethod (SEARCH, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::RoutingError (No route matches "*" with {:method=>:options}):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::RoutingError (No route matches "*" with {:method=>:options}):
+  
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `product_items`):
+  app/models/product/item.rb:5
+  app/controllers/pages_controller.rb:18:in `index'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `pages`):
+  app/models/page.rb:3
+  app/controllers/pages_controller.rb:27:in `page'
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `product_items`):
+  app/models/product/item.rb:5
+  app/controllers/pages_controller.rb:18:in `index'
+
+
+ActionController::UnknownHttpMethod (ASDF, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownHttpMethod (ASDF, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: profile, profile_update, signup, and signup_submit):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: profile, profile_update, signup, and signup_submit):
+  
+
+
+ActionController::UnknownAction (No action responded to axis. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to axis. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to index. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to CVS. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to CVS. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to CVS. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to CVS. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to info. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to info. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to phpinfo. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to phpinfo. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to info. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to info. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to phpinfo. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to phpinfo. Actions: init_table_dnd):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownHttpMethod (TRACK, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownHttpMethod (TRACE, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+WillPaginate::InvalidPage ("<script>alert(TK00000001)</script>" given as value, which translates to '0' as page number):
+  app/controllers/pages_controller.rb:19:in `index'
+
+
+ActionController::UnknownAction (No action responded to _vti_inf. Actions: index and page):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+WillPaginate::InvalidPage ("<script>alert(TK00000001)</script>" given as value, which translates to '0' as page number):
+  app/controllers/pages_controller.rb:19:in `index'
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownHttpMethod (TRACE, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownHttpMethod (TRACK, accepted HTTP methods are get, head, put, post, delete, and options):
+  
+
+
+ActionController::UnknownAction (No action responded to _vti_inf. Actions: index and page):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownAction (No action responded to ?. Actions: index and page):
+  
+
+
+ActionController::UnknownAction (No action responded to ?. Actions: index and page):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActionView::TemplateError (undefined method `map' for nil:NilClass) on line #42 of app/views/admin/products_catalog/_form_item_data.html.erb:
+39: 
+40:                 <!-- % data.value_integer = data.value_integer.to_i % -->
+41:                 <div style="float: left;">
+42:                   <%= fd.collection_select :value_integer,
+43:                     @field_values_arr[form_field.field_id],
+44:                     :id, :value,
+45:                     { :include_blank => "Please Select..." },
+
+    app/views/admin/products_catalog/_form_item_data.html.erb:42
+    app/views/admin/products_catalog/_form_item_data.html.erb:25
+    app/views/admin/products_catalog/_form_item_data.html.erb:11:in `each'
+    app/views/admin/products_catalog/_form_item_data.html.erb:11
+    app/views/admin/products_catalog/_form_item.html.erb:15
+    app/views/admin/products_catalog/_form_item.html.erb:4
+    app/views/admin/products_catalog/edit_item.html.erb:3
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: MySQL server has gone away: SHOW FIELDS FROM `product_items`):
+  app/models/product/item.rb:5
+  app/controllers/pages_controller.rb:18:in `index'
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownAction (No action responded to *. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to AppleWebKit. Actions: init_table_dnd):
+  
+
+
+ActionController::UnknownAction (No action responded to url;. Actions: init_table_dnd):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to list#. Actions: activate_category, activate_item, copy_item, copy_item_submit, create_category, create_item, delete_category, delete_item, edit_category, edit_item, index, list, list_categories, list_items, new_category, new_item, preview_listing, reset_counter, shift_category, shift_item_position, shift_item_position_on_home, sort_images, update_category, update_item, view_category, and view_item):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to <option value=. Actions: init_table_dnd):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownHttpMethod (CONNECT, accepted HTTP methods are get, head, put, post, delete, and options):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownAction (No action responded to configs. Actions: ):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownHttpMethod (CONNECT, accepted HTTP methods are get, head, put, post, delete, and options):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+
+
+ActionController::UnknownHttpMethod (CONNECT, accepted HTTP methods are get, head, put, post, delete, and options):
+  /etc/httpd/modules/passenger/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /etc/httpd/modules/passenger/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /etc/httpd/modules/passenger/helper-scripts/passenger-spawn-server:99
+

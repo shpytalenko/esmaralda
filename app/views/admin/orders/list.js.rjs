@@ -1,0 +1,6 @@
+
+page.hide "flash"
+
+page.replace_html "items_div", :partial => "table"
+
+page.call "initTableInterface", 'items_table'

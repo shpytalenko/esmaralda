@@ -1,0 +1,44 @@
+
+<% if @orders_count > 0 -%>
+  <p><%= pluralize(@orders_count, "order") %> found</p>
+
+  <form id="items_form" class="items">
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :id, :as => "Order#" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :name, :as => "Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :email, :as => "E-mail" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :completed_at, :as => "Date" %></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for order in @orders -%>
+        <tr id="items_table_<%= order.id %>">
+          <td class="a-center"><%=h order.number %></td>
+          <td><%= link_to_if order.user, order.name, { :controller => "users", :action => "view", :id => order.user } %></td>
+          <td><%= auto_link order.email, :all, :target => "_blank" %></td>
+          <td class="a-center"><%= order.completed_at.strftime("%Y-%m-%d") rescue nil %></td>
+          <td style="width: 45px;">
+            <%= link_to "", { :action => "view", :id => order }, :class => "action-link view", :title => "View" %>
+            <%= link_to "", { :action => "delete", :id => order }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+  <p class="pagination">
+    Per page: <%= select("orders", "per_page", [[1, 1], [2, 2], [3, 3], [5, 5], [10, 10], [25, 25], [50, 50], [100, 100]], {} , { :class => "nowidth", :onchange => "changePerPage('#{ url_for(:action => 'list') }', this.value);" } ) %>
+    <% if @orders.total_pages > 1 -%>
+      &nbsp;&nbsp;&nbsp;
+      Pages: <%= will_paginate @orders, :container => false, :params => { :action => "list" } %>
+    <% end -%>
+  </p>
+
+  </form>
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>

@@ -1,0 +1,48 @@
+<% title "Category" %>
+
+<table>
+  <tr>
+    <td class="image">
+      <center>
+        <%= image_tag @category.image.url(:thumb) %>
+      </center>
+    </td>
+    <td>
+
+      <table class="items">
+        <tr>
+          <td class="label">Name:</td>
+          <td class="field"><%=h @category.name %></td>
+        </tr>
+        <tr>
+          <td class="label">Parent Category:</td>
+          <td class="field">
+            <% unless @category.ancestors.blank? -%>
+              <%= @category.ancestors.map{|i| h(i.name)}.join(" &raquo; ") %>
+            <% else -%>
+              ROOT
+            <% end -%>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Description:</td>
+          <td class="field"><%=h @category.description %></td>
+        </tr>
+        <tr>
+          <td class="label">Active:</td>
+          <td class="field"><%= yes_no(@category.is_active) %></td>
+        </tr>
+      </table>
+      
+      <%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+      <%= link_to "Edit", { :action => "edit_category", :id => @category }, :class => "action-link-text edit" %>
+      <%= link_to "Delete", { :action => "delete_category", :id => @category }, :class => "action-link-text delete", :confirm => 'Are you sure?' %>
+      <%= link_to "New Category", { :action => "new_category" }, :class => "action-link-text add" %>
+      <div class="clear"></div>
+      
+    </td>
+  </tr>
+  
+</table>
+
+

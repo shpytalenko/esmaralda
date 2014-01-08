@@ -1,0 +1,15 @@
+<div class="contentClearTextBlock">
+  <h1>Testimonials</h1>
+</div>
+
+<% unless @testimonials.blank? %>
+  <% @testimonials.each do |testimonial| %>
+    <div class="blockTestimonials">
+      <%=h testimonial.text %>
+      <span class="author"><%=h testimonial.customer %></span>
+    </div>
+  <% end %>
+<% else %>
+  <p style="margin-top: 10px;">Sorry, no items found...</p>
+<% end %>
+

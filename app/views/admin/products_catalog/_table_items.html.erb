@@ -1,0 +1,80 @@
+<input type="hidden" id="i_order" name="i[order]" value="<%= @i_search.order unless @i_search.blank? %>" />
+
+<% unless @i_search.blank? -%>
+  <% if @items_count > 0 -%>
+    <p style="margin-top: 30px;"><b>Items:</b></p>
+    <p><%= pluralize(@items_count, "item") %> found</p>
+
+    <form id="items_form">
+    <table id="items_table" class="items">
+      <thead>
+        <tr>
+          <th><input type="checkbox" class="checkAll" /></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :sku, :as => "SKU" %></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :name, :as => "Name" %></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :type_position, :as => "Product Type" %></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :retail_price, :as => "Reatail" %></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :price, :as => "Price" %></th>
+          <th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :is_active, :as => "Active" %></th>
+					<% if @search_mode == "items" %>
+          	<th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :position, :as => "Pos." %></th>
+					<% elsif @search_mode == "items_on_home" %>
+						<th><%= order @i_search, :params => { :action => "list_items" }, :params_scope => :i, :by => :position_on_home, :as => "Pos." %></th>
+					<% end %>
+          <th>Actions</th>
+          <% if items_sort_allowed? || items_on_home_sort_allowed? -%>
+            <th>&nbsp;</th>
+          <% end -%>
+        </tr>
+      </thead>
+      <tbody id="items_table_tbody">
+        <% for item in @items -%>
+          <tr id="items_table_<%= item.id %>">
+            <td class="a-center"><%= check_box_tag "id[]", item.id, false, { :id => nil } %></td>
+            <td><%=h item.sku %></td>
+            <td><%=h item.name %></td>
+            <td><%=h item.type.name unless item.type.blank? %></td>
+            <td><%= number_to_currency(item.retail_price) %></td>
+            <td><%= number_to_currency(item.price) %></td>
+            <td class="a-center"><%= yes_no(item.is_active) %></td>
+
+						<% if @search_mode == "items" %>
+	          	<td class="pos a-center"><%= item.position %></td>
+						<% elsif @search_mode == "items_on_home" %>
+							<td class="pos a-center"><%= item.position_on_home %></td>
+						<% end %>
+
+            <td style="width: 85px;">
+              <%= link_to "", { :action => "edit_item", :id => item }, :class => "action-link edit", :title => "Edit" %>
+              <%= link_to "", { :action => "preview_listing", :id => item }, :class => "action-link layout", :title => "Preview Listing", :target => "_blank" %>
+              <%= link_to "", { :action => "copy_item", :id => item }, :class => "action-link copy", :title => "Copy" %>
+              <%= link_to "", { :action => "delete_item", :id => item }, :class => "action-link delete", :title => "Delete" %>
+              <div class="clear"></div>
+            </td>
+            <% if items_sort_allowed? || items_on_home_sort_allowed? -%>
+              <td class="dragHandle">[drag]</td>
+            <% end -%>
+          </tr>
+        <% end -%>
+      </tbody>
+    </table>
+
+    <p class="pagination">
+      Per page: <%= select("items", "per_page", [[5, 5], [10, 10], [25, 25], [50, 50], [100, 100]], {} , { :class => "nowidth", :onchange => "changePerPage('#{ url_for(:action => 'list') }', this.value);" } ) %>
+      <% if @items.total_pages > 1 -%>
+        &nbsp;&nbsp;&nbsp;
+        Pages: <%= will_paginate @items, :container => false, :params => { :action => "list_items" } %>
+      <% end -%>
+    </p>
+    
+    <p>
+      With selected:
+      <%= link_to_remote "Activate", :url => { :action => 'activate_item', :is_active => 1 }, :with => 'jQuery("#items_form :checkbox").serialize()' %> /
+      <%= link_to_remote "Deactivate", :url => { :action => 'activate_item', :is_active => 0 }, :with => 'jQuery("#items_form :checkbox").serialize()' %>
+    </p>
+    </form>
+
+  <% end -%>
+
+<% end -%>
+

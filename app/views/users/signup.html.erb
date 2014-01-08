@@ -1,0 +1,15 @@
+<% javascript :defaults %>
+
+<div class="contentClearTextBlock">
+  <h1>User Registration</h1>
+</div>
+
+<div class="contentClearTextBlock">
+  <center>
+  
+    <div id="registration_form_div">
+      <%= render :partial => 'form', :locals => { :url => signup_submit_path } %>
+    </div>
+
+  </center>
+</div>

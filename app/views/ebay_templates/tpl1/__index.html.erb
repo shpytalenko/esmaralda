@@ -1,0 +1,256 @@
+<% strip_white_spaces do -%><html>
+<head>
+	<title>Esmeralda Jewels 1, Inc</title>
+</head>
+<body id="body">
+	
+<style type="text/css" media="screen">
+	body { margin: 0; padding: 0; font-family: Arial, Tahoma, Verdana, Sans-serif, Helvetica; font-size: 12px; text-align: left; background-color: #FFFFFF; color: #FFFFFF; }
+	table { margin: 0; padding: 0; font-family: Arial, Tahoma, Verdana, Sans-serif, Helvetica; font-size: 12px; text-align: left; }
+	img { margin: 0; padding: 0; border: none; }
+	a { color: #CC9966;	text-decoration: underline; }
+	a:hover {	color: #E2B689;	text-decoration: none; }
+	h1 { padding: 0; margin: 0;font-size: 16px; font-weight: bold; }
+	.imagethumb { width: 100px; height: 150px; }
+	.imagemedium { width: 300px; height: 500px; }
+	tr.odd { background-color: #4C4C4C; }	
+	tr.even { background-color: #909090; }
+	td.caption { text-align: center; background-color: #93999C; width: 700px; height: 23px; color: #FFFFFF; font-size: 16px; font-weight: bold; }
+	td.copyright { text-align: center; background-color: #CC9966; font-family: Tahoma,Arial,Helvetica,sans-serif; color: #000000; font-size: 10px; }
+</style>
+
+<script type="text/javascript" charset="utf-8">
+	function preload_images() {
+		var args=preload_images.arguments;
+		for (i=0; i<args.length; i++) { img=new Image(); img.src=args[i]; }
+	}
+
+	function roll_image(target,src) {
+		document.getElementById(target).src=src;
+	}
+
+	<% unless @images.blank? -%>
+		preload_images('<%= @images.map{ |image| image.url(:medium, false) }.join("', '") %>');
+	<% end -%>
+</script>
+
+
+
+<!-- ST_SEAL_HTML_START -->
+<center>
+	<a href="http://www.squaretrade.com/" target="_blank">
+		<img alt="SquareTrade Seal Member" src="http://eseals.squaretrade.com/cE004/743259633.gif" border="0">
+	</a><br>
+	<a href="http://www.squaretrade.com/" target="_blank">
+		<img alt="SquareTrade Seal Member" src="http://eseals.squaretrade.com/cET004/743259633.gif" border="0">
+	</a><br>
+</center>
+<!-- ST_SEAL_HTML_END -->
+
+
+<center>
+	<table align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td><img alt="" src="<%= @tpl_url %>/images/top.jpg" border="0"></td>
+		</tr>
+		<tr>
+			<td height="20" background="<%= @tpl_url %>/images/bg2_orange.gif">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="middle" background="<%= @tpl_url %>/images/bg1_center.gif">
+				<table align="center" bgcolor="#6f777b" cellpadding="5" width="700">
+					<tr>
+						<td>
+							<table align="center" cellpadding="3" cellspacing="0" width="680">
+								<tr>
+									<td class="caption" colspan="2" align="middle">
+										<%=h @item.name %>
+									</td>
+								</tr>
+								<tr>
+									<td align="middle" valign="top" style="padding-top: 15px;" width="50%">
+										<!-- IMAGES_START -->
+										<div class="imagemedium"><a href="<%= @main_image.url(:medium, false) %>" target="_blank" title="<%=h @item.name %>"><img src="<%= @main_image.url(:medium, false) %>" name="centerimage" id="centerimage" alt="<%=h @item.sku %>" /></a></div><br><br>
+										<% unless @images.blank? or @images.size == 1 -%>
+											<font size="3" color="#fffe38"><strong>Click images to enlarge.</strong></font><br><br>
+				              <table cellpadding="0" cellspacing="3" border="0">
+				              <% per_row = @images.size >=3 ? 3 : @images.size %>
+				              <% images_rows = @images.in_groups_of(per_row, nil) %>
+				              <% images_rows.each_with_index do |images_row, i| -%>
+				                <tr>
+				                  <% images_row.each_with_index do |image, j| -%>
+				                    <% unless image.nil? -%>
+				                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;" class="imagethumb">
+				                        <a href="<%= image.url(:medium, false) %>" target="_blank" onmouseover="roll_image('centerimage','<%= image.url(:medium, false) %>')"><img src="<%= image.url(:thumb, false) %>" alt="" /></a>
+				                      </td>
+				                    <% else -%>
+				                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;">&nbsp;</td>
+				                    <% end -%>
+				                  <% end -%>
+				                </tr>
+				              <% end -%>
+				              </table>
+				            <% end -%>
+										<!-- IMAGES_END -->
+									</td>
+									<td valign="top" style="padding-top: 15px;" width="50%">
+										
+										<p><%= @item.description %></p>
+
+
+										<% unless @form_fields.blank? -%>
+											<table width="100%" border="0" cellspacing="2" cellpadding="3">
+												<% for form_field in @form_fields do -%>
+													<% data = @item_data_arr[form_field.id] || form_field.data.new(:item_id => @item.id) %>
+													<% if form_field.control == "group" -%>
+														<tr><td collspan="2" style="padding-top: 10px;" nowrap><font size="+1"><%= form_field.name %>:</font></td></tr>
+													<% elsif !data.value_string.blank? || !data.value_text.blank? || !data.value_integer.blank? || !data.value_set.blank?  -%>
+														<tr class="<%= cycle("odd", "even") %>">
+															<td><%=h form_field.name %>:</td>
+
+															<% if form_field.control == "text_field" -%>
+																<td><%=h data.value_string %></td>
+															<% elsif form_field.control == "text_area" -%>
+																<td><%=h data.value_text %></td>
+															<% elsif ["select", "radio"].include?(form_field.control) -%>
+																<td><%= @field_values_by_ids[data.value_integer] %></td>
+															<% elsif form_field.control == "multiple" -%>
+																<td><%= data.value_set.split(",").map { |val| @field_values_by_ids[val.to_i] }.join(", ") %></td>
+															<% end -%>
+
+														</tr>
+													<% end -%>
+												<% end -%>
+											</table>
+										<% end -%>
+
+				
+										<br>
+										<table width="100%" border="0" cellspacing="2" cellpadding="3">
+											<tr>
+												<td colspan="2" align="middle" bgcolor="#909090" style="margin-top: 10px;">
+													<strong>All watches sold by GreatNewDeal are guaranteed to be 100% genuine in the original box with the serial numbers intact. Your satisfaction is guaranteed.</strong>
+												</td>
+											</tr>
+										</table>
+										
+
+										<div align="center">
+											<p>
+												<% unless @item.retail_price.blank? -%>
+													<font style="color: blue; text-decoration: line-through;" size="+1">Retail: <%=number_to_currency @item.retail_price %></font><br>
+
+													<% saving_amount = @item.retail_price - @item.price %>
+					                <% saving_percent = 100 - @item.price*100/@item.retail_price %>
+
+													<span style="color: #FFF125; font-weight: bold;" class="style1">(Discount: -<%= number_to_percentage(saving_percent, :precision => 0) %>)</span><br>
+												<% end -%>
+												<font size="+2"><strong>Our Price: <%=number_to_currency @item.price %></strong></font>
+											</p>
+											<p>
+												<font size="+2">
+													<strong>
+														<a target="_blank" href="http://pages.ebay.com/services/buyandsell/powersellers.html">
+															<img src="<%= @tpl_url %>/images/logoPS_230x100.gif">
+														</a>
+													</strong>
+												</font>
+											</p>
+										</div>
+
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="20" background="<%= @tpl_url %>/images/bg2_orange.gif">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="middle" background="<%= @tpl_url %>/images/bg1_center.gif">
+				<table align="center" border="0" cellpadding="5" width="700">
+					<tr>
+						<td valign="top">
+							GreatNewDeal specializes in discounted brand name watches &amp; has been in business for over 15 years. Our specialty is famous brand name timepieces. <br><br>All watches sold by GreatNewDeal are guaranteed to be 100% genuine in the original box with the serial numbers intact unless otherwise noted. Your satisfaction is guaranteed.<br><br>If you are looking for any watch that you do not see in our eBay Store, inquire us for a price quote. We can get any high-end timepiece discounted at a competitive price. Send us an email to <a target="_blank" href="mailto:sales@greatnewdeal.com">sales@greatnewdeal.com</a> or call <br><b>
+							<center>212.575-7975<br>646.250.9861</center></b><br><br>
+							Please Note: We are not authorized dealers for IWC watches or any other watch manufacturer.<br><br>
+							<img src="<%= @tpl_url %>/images/bottomDesign.jpg">
+						</td>
+						<td bgcolor="#6f777b" valign="top" width="480">
+							<table align="center" cellpadding="3" cellspacing="0" width="480">
+								<tr>
+									<td class="caption">Payments:</td>
+								</tr>
+								<tr>
+									<td align="middle">
+										We accept all Paypal payment options for all orders under $10,000.<br><br>
+										For listing that are higher that amount contact us directly to discuss the payment options at 212-575-7975 or 646-250-9861 or <a target="_blank" href="mailto:sales@greatnewdeal.com">sales@greatnewdeal.com</a>.<br><br>
+										<center>
+											<font face="verdana,arial,helvetica" size="3">
+												<b>PayPal - eBay's service to make fast, easy, and secure payments for your eBay purchases!</b>
+											</font><br>
+											<img title="PayPal - eBay's service to make fast, easy, and secure payments for your eBay purchases!" name="ppvidlogo" alt="PayPal—eBay's service to make fast, easy, and secure payments for your eBay purchases!" src="<%= @tpl_url %>/images/ppslv2.gif" border="0">
+											<img name="visa" alt="Visa" src="<%= @tpl_url %>/images/logo_ccVisa.gif" border="0">
+											<img name="mastercard" alt="Mastercard" src="<%= @tpl_url %>/images/logo_ccMC.gif" border="0">
+											<img name="discover" alt="Discover" src="<%= @tpl_url %>/images/logo_ccDiscover.gif" border="0">
+											<img name="amex" alt="American Express" src="<%= @tpl_url %>/images/logo_ccAmex.gif" border="0">
+											<img name="echeck" alt="eCheck" src="<%= @tpl_url %>/images/logo_ccEcheck.gif" border="0">
+										</center>
+									</td>
+								</tr>
+								<tr>
+									<td class="caption">Shipping:</td>
+								</tr>
+								<tr>
+									<td>
+										<p><b>U.S. Orders</b></p>
+										<p align="center">
+											<span class="style1"><span style="color: #FFF125; font-weight: bold;">WE OFFER FREE 2nd DAY SHIPPING VIA UPS!</span></span>
+										</p>
+										<p>
+											Overnight shipping is also available for a minimal cost. All items are shipped insurred for the full value. Insurance is optional. For special instructions send us an email to <a target="_blank" href="mailto:sales@greatnewdeal.com">sales@greatnewdeal.com</a>.<br><br>
+											<b>International Orders</b><br>
+											All international customers must contact us prior to payment for a shipping quote. International customers are responsible for all duties and taxes. For faster service send an email to <a target="_blank" href="mailto:sales@greatnewdeal.com">sales@greatnewdeal.com</a>.<br>
+											<strong>WE DO NOT SHIP TO INDONESIA!!! NO EXCEPTIONS!!!</strong>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="caption">Returns:</td>
+								</tr>
+								<tr>
+									<td>Return authorizations must be requested within 2 day of receipt of item. Returns will only be accepted if the watch(es) was misrepresented in its on-line description or the product is defective. 212-575-7975 Abba Cohen<br><br>Special orders may not be cancelled or returned.<br><br>Credit will only be issued for items returned with all original paperwork and boxes. Exchanges receive 100% credit towards a future purchase with GreatNewDeal.</td>
+								</tr>
+								<tr>
+									<td class="caption">About Us:</td>
+								</tr>
+								<tr>
+									<td>GreatNewDeal is a one time stop for all your watch, diamonds and jewelry needs. We offer all high-end and fashion watches please inquire for details.<br><br>
+										GreatNewDeal considers integrity, customer service, selection and reasonable prices to be the cornerstones of its business. <br><br>
+										<b>Local 212-575-7975</b><br>
+										<strong>Cell 646-250-9861</strong><br><br>
+										Or you can email us at: <a target="_blank" title="" href="mailto:sales@greatnewdeal.com">sales@greatnewdeal.com</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td><img alt="" src="<%= @tpl_url %>/images/bottom.jpg" border="0"></td>
+		</tr>
+		<tr>
+			<td class="copyright" align="middle">&copy; Copyright 2005-2009, GreatNewDeal.com and greatnewdeal.com</td>
+		</tr>	
+	</table>
+</center>
+
+
+
+</body>
+</html><% end -%>

@@ -1,0 +1,36 @@
+<% if @types_count > 0 %>
+  <p><%= pluralize(@types_count, "type") %> found</p>
+
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :name, :as => "Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :position, :as => "Pos." %></th>
+        <th>Actions</th>
+        <% if sort_allowed? %>
+          <th>&nbsp;</th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for type in @types %>
+        <tr id="items_table_<%= type.id %>">
+          <td><%=h type.name %></td>
+          <td class="pos a-center"><%= type.position %></td>
+          <td style="width: 65px;">
+            <%= link_to "", { :action => "edit", :id => type }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :controller => "product_form_fields", :action => "list", :type_id => type }, :class => "action-link editform", :title => "Form Fields" %>
+            <%= link_to "", { :action => "delete", :id => type }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+          <% if sort_allowed? %>
+            <td class="dragHandle">[drag]</td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+<% else %>
+  <p>DATA NOT FOUND...</p>
+<% end %>

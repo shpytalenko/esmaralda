@@ -1,0 +1,95 @@
+<% title "Edit Form" %>
+
+<% javascript 'jquery-1.3.2.min.js', '/libs/jquery-ui-1.7.2.custom/jquery-ui-1.7.2.custom.min.js' %>	
+
+<script type="text/javascript">
+	jQuery(function() {
+	
+    jQuery(".fieldGroups").sortable({
+		  connectWith: '.fieldGroups', 
+		  handle: '.caption',
+		  placeholder: 'placeholder',
+		  forcePlaceholderSize: true,
+		  containment: 'parent',
+		  tolerance: 'pointer',
+		  revert: true,
+      update: function(event, ui) {
+        if (!ui.sender) {
+          var field_group_id = ui.item.attr('field_group_id');
+          var position = ui.item.parent().find("li").index(ui.item);
+          data = { "field_group_id": field_group_id, "position": position };
+          jQuery.get("http://localhost:3000/", data, null, null);
+        }
+      }
+	  }).disableSelection();
+  		
+  		
+    jQuery(".fields").sortable({
+      connectWith: '.fields',
+      containment: '.fieldGroups',
+      tolerance: 'pointer',
+      revert: true,
+      update: function(event, ui) {
+        if (!ui.sender) {
+          var field_id = ui.item.attr('field_id');
+          var position = ui.item.parent().find("li").index(ui.item);
+          data = { "field_id": field_id, "position": position };
+          jQuery.get("http://localhost:3000/", data, null, null);
+        }
+      }
+    }).disableSelection();
+    
+	});
+</script>
+
+
+<div id="fieldsContainer">
+  
+  
+<ul class="fieldGroups">
+  <li field_group_id="1">
+    <div class="caption">Field Group 1</div>
+    <ul class="fields">
+    	<li field_id="11">
+      	<%= link_to "", { :action => "#" }, :class => "action-link delete", :title => "Remove", :style => "float: right; margin: 0px;" %>
+    	  <div>Item 1.1</div>
+      	<div class="clear"></div>
+      </li>
+    	<li field_id="12">
+      	<%= link_to "", { :action => "#" }, :class => "action-link delete", :title => "Remove", :style => "float: right; margin: 0px;" %>
+      	<div>Item 1.2</div>
+      	<div class="clear"></div>
+    	</li>
+    	<li field_id="13">
+      	<%= link_to "", { :action => "#" }, :class => "action-link delete", :title => "Remove", :style => "float: right; margin: 0px;" %>
+      	<div>Item 1.3</div>
+      	<div class="clear"></div>
+    	</li>
+    	<li field_id="14"><div>Item 1.4</div></li>
+    	<li field_id="15"><div>Item 1.5</div></li>
+    </ul>
+  </li>
+  <li field_group_id="2">
+    <div class="caption">Field Group 2</div>
+    <ul class="fields">
+    	<li field_id="21"><div>Item 2.1</div></li>
+    	<li field_id="22"><div>Item 2.2</div></li>
+    	<li field_id="23"><div>Item 2.3</div></li>
+    	<li field_id="24"><div>Item 2.4</div></li>
+    	<li field_id="25"><div>Item 2.5</div></li>
+    </ul>
+  </li>
+  <li field_group_id="3">
+    <div class="caption">Field Group 3</div>
+    <ul class="fields">
+    	<li field_id="31"><div>Item 3.1</div></li>
+    	<li field_id="32"><div>Item 3.2</div></li>
+    	<li field_id="33"><div>Item 3.3</div></li>
+    	<li field_id="34"><div>Item 3.4</div></li>
+    	<li field_id="35"><div>Item 3.5</div></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+

@@ -1,0 +1,8 @@
+
+page.replace_html "items_div", :partial => "table_items"
+
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_item_position' }" if @search_mode == "items"
+page.call 'initTableDnD', "items_table", "#{ url_for :action => 'shift_item_position_on_home' }" if @search_mode == "items_on_home"
+
+page.call 'initTableInterface', "items_table"
+

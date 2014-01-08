@@ -1,0 +1,57 @@
+
+function initTableDnD(tableId, remote_url) {
+
+  var first_item_pos = 1;
+  var old_item_index = 0;
+  var new_item_index = 0;
+  var old_rows_indexes = [];
+  var tableId = tableId || 'table'
+  var remote_url = remote_url;
+  
+  //alert(remote_url);
+
+  //jQuery.noConflict();
+  jQuery(document).ready(function() {
+    jQuery('#'+tableId+'_tbody').tableDnD({
+
+      onDrop: function(table, row) {
+        var rows = table.rows;
+        for (var i=0; i<rows.length; i++) {
+          if (row.id == rows[i].id) {
+            new_item_index = i;
+            break;
+          }
+        }
+        old_item_index = old_rows_indexes[row.id];
+
+        items_position_shift = new_item_index - old_item_index;
+        if (items_position_shift != 0) {
+          jQuery.ajax({
+            type: "POST",
+            url: remote_url,
+            processData: false,
+            data: '&authenticity_token=' + encodeURIComponent('<%= form_authenticity_token if protect_against_forgery? %>')+'&id='+jQuery.tableDnD.cleanRowId(row.id)+'&shift='+items_position_shift
+          });
+          //alert(remote_url);
+
+          var cells = jQuery('#'+tableId+'_tbody td.pos');
+          for (var i=0; i<cells.length; i++) {
+            cells[i].innerHTML = first_item_pos*1 + i;
+          }
+        }
+      },
+
+      onDragStart: function(table, row) {
+        first_item_pos = jQuery('#'+tableId+'_tbody td.pos')[0].innerHTML;
+	      var rows = table.rows;
+        for (var i=0; i<rows.length; i++) {
+          old_rows_indexes[rows[i].id] = i;
+        }
+      },
+
+      rowIdPrefix: tableId+'_',
+      dragHandle: "dragHandle",
+      onDragClass: "dragTr"
+    })
+  })
+}

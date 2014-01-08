@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title><%= Setting.site_name %> - <%= h(yield(:title) || "Admin") %></title>
+    <%= stylesheet_link_tag 'admin/application' %>
+    <%= javascript_include_tag :defaults %>
+    <%= init_tinymce_hammer_if_required %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <div id="container">
+      <% if current_staff %>
+        <div id="top_right_nav">
+          <%= link_to "Logout #{current_staff.name}", admin_logout_path, :class => "action-link-text logout" %>
+          <div class="clear"></div>
+        </div>
+        <div id="top_left_nav">
+          <%= semantic_menu :class => 'menu-h-d' do |menu|
+            # menu.add "Link", nil, :class => "unactive"
+            menu.add "Home", admin_root_path
+
+            menu.add "Products", nil do |submenu|
+              submenu.add "Catalog",        "/admin/products_catalog"
+              submenu.add "Product Types",  "/admin/product_types"
+              submenu.add "Product Fields", "/admin/product_fields"
+            end
+
+            menu.add "Orders", "/admin/orders"
+
+            menu.add "Content", nil do |submenu|
+              submenu.add "Pages",        "/admin/content_pages"
+              submenu.add "System Pages", "/admin/content_system_pages"
+              submenu.add "Testimonials", "/admin/testimonials"
+            end
+
+            menu.add "People", nil do |submenu|
+              submenu.add "Staff", "/admin/staff"
+              submenu.add "Users", "/admin/users"
+            end
+
+            menu.add "Settings", "/admin/settings"
+
+          end %>
+        </div>
+        <div class="clear"></div>
+      <% end %>
+
+      <% if show_title? %>
+        <h1 id="title"><%=h yield(:title) %></h1>
+      <% end -%>
+
+      <div id="flash">
+      <% flash.each do |name, msg| %>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <% end %>
+      </div>
+
+      <div id="navigation_path">
+        <%= navigation_path(@navigation_path) %>
+      </div>
+
+      <%= yield %>
+
+    </div>
+  </body>
+</html>

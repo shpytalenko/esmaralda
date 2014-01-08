@@ -1,0 +1,12 @@
+
+development:
+  root_url: http://localhost:3001/
+  site_name: Esmeralda Jewels 1
+  percent_cc: 3
+  percent_ebay: 5
+
+production:
+  root_url: http://esmeraldajewels1.com/
+  site_name: Esmeralda Jewels 1
+  percent_cc: 3
+  percent_ebay: 5

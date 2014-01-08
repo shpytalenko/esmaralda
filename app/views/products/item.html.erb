@@ -1,0 +1,166 @@
+
+<div class="contentClearTextBlock">
+  <h1><%= @item.name %></h1>
+  <%= navigation_path_client(@navigation_path) %>
+</div>
+<div class="blockSpacerRightColumn"></div>
+
+<div class="contentBaseBlock">
+  <div class="contentBaseBlockHeader">PRODUCT DETAILS</div>
+  <div class="contentBaseBlockData">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="viewItem">
+      <tr>
+        <td align="center" width="50%">
+
+          <% content_for(:head) do -%>
+            <%= javascript_include_tag 'prototype.js', 'jquery-1.3.2.min.js', '/libs/jquery.lightbox-0.5/jquery.lightbox-0.5.pack.js', '/libs/jqModal/jqModal.js' %>
+            <%= stylesheet_link_tag '/libs/jquery.lightbox-0.5/jquery.lightbox-0.5.css', 'offer.css' %>
+            <% javascript_tag do -%>
+
+              jQuery(document).ready(function() {
+                var lightboxOptions = {
+                  overlayBgColor: '#000000',
+                  overlayOpacity: 0.2,
+                  imageLoading:  '/libs/jquery.lightbox-0.5/lightbox-ico-loading.gif',
+                  imageBtnClose: '/libs/jquery.lightbox-0.5/lightbox-btn-close.gif',
+                  imageBtnPrev:  '/libs/jquery.lightbox-0.5/lightbox-btn-prev.gif',
+                  imageBtnNext:  '/libs/jquery.lightbox-0.5/lightbox-btn-next.gif',
+                  imageBlank:    '/libs/jquery.lightbox-0.5/lightbox-blank.gif',
+                  containerResizeSpeed: 350
+                }
+                jQuery('a[rel=lightbox]').lightBox(lightboxOptions);
+
+              });
+            <% end -%>
+          <% end -%>
+
+          <div class="imagemedium">
+            <center>
+              <a href="<%= @main_image.url(:large, false) %>" rel="lightbox" target="_blank" title="<%=h @item.name %>">
+                <img src="<%= @main_image.url(:medium, false) %>" name="centerimage" id="centerimage" alt="<%=h @item.name %>" />
+              </a>
+            </center>
+          </div>
+
+          <center>
+            <% unless @images.blank? or @images.size == 1 -%>
+              <table cellpadding="0" cellspacing="3" border="0" style="padding-top: 20px;">
+              <% per_row = @images.size >=3 ? 3 : @images.size %>
+              <% images_rows = @images.in_groups_of(per_row, nil) %>
+              <% images_rows.each_with_index do |images_row, i| -%>
+                <tr>
+                  <% images_row.each_with_index do |image, j| -%>
+                    <% unless image.nil? -%>
+                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;" class="imagethumb">
+                        <a href="<%= image.url(:large, false) %>" rel="lightbox" target="_blank"><img src="<%= image.url(:thumb, false) %>" alt="" /></a>
+                      </td>
+                    <% else -%>
+                      <td align="center" valign="middle" style="width: <%= 100/per_row %>%;">&nbsp;</td>
+                    <% end -%>
+                  <% end -%>
+                </tr>
+              <% end -%>
+              </table>
+            <% end -%>
+          </center>
+
+        </td>
+        <td>
+          <div class="blueBg">
+
+            <p><%= @item.description %></p>
+
+            <% unless @form_fields.blank? -%>
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" class="viewItemDescription">
+
+								<% if false -%>
+									<!--
+	                <% unless @categories_path.blank? -%>
+	                  <% unless @categories_path[1].blank? -%>
+	                    <tr>
+	                      <td width="50%">Brand:</td>
+	                      <td class="normal"><%=h @categories_path[1][:name] %></td>
+	                    </tr>
+	                  <% end -%>
+	                  <% unless @categories_path[2].blank? -%>
+	                    <tr>
+	                      <td width="50%">Serie:</td>
+	                      <td class="normal"><%=h @categories_path[2][:name] %></td>
+	                    </tr>
+	                  <% end -%>
+	                <% end -%>
+									-->
+								<% end -%>
+
+                <% for form_field in @form_fields do -%>
+                  <% data = @item_data_arr[form_field.id] || form_field.data.new(:item_id => @item.id) %>
+                  <% if form_field.control == "group" -%>
+                    <tr><td collspan="2" class="normal" style="padding-top: 10px; border: none;" nowrap><%= form_field.name %>:</td></tr>
+                  <% elsif !data.value_string.blank? || !data.value_text.blank? || !data.value_integer.blank? || !data.value_set.blank?  -%>
+                    <tr>
+                      <td width="50%"><%=h form_field.name %>:</td>
+
+                      <% if form_field.control == "text_field" -%>
+                        <td class="normal"><%=h data.value_string %></td>
+                      <% elsif form_field.control == "text_area" -%>
+                        <td class="normal"><%=h data.value_text %></td>
+                      <% elsif ["select", "radio"].include?(form_field.control) -%>
+                        <td class="normal"><%= @field_values_by_ids[data.value_integer] %></td>
+                      <% elsif form_field.control == "multiple" -%>
+                        <td class="normal"><%= data.value_set.split(",").map { |val| @field_values_by_ids[val.to_i] }.join(", ") %></td>
+                      <% end -%>
+
+                    </tr>
+                  <% end -%>
+                <% end -%>
+              </table>
+            <% end -%>
+
+          </div>
+
+          <div style="padding-top: 20px;">
+            <center>
+              <% if !@item.retail_price.blank? && @item.retail_price > @item.price -%>
+                <span class="blackBold">List Price: <%= number_to_currency @item.retail_price %></span>
+              <% end -%>
+
+              <br/>
+              <span class="bigRedPrice">Our Price: <%= number_to_currency @item.price %></span>
+
+							<% if false -%>
+							<!--
+              <br/>
+              <span class="grey">* Price is for payments via Bank Wire or Check</span>
+							-->
+							<% end -%>
+
+              <% if !@item.retail_price.blank? && @item.retail_price > @item.price -%>
+                <% saving_amount = @item.retail_price - @item.price %>
+                <% saving_percent = 100 - @item.price*100/@item.retail_price %>
+                <br/>
+                <span class="grey">Your savings: <%= number_to_currency(saving_amount) %> (<%= number_to_percentage(saving_percent, :precision =>0) %>)</span>
+              <% end -%>
+
+							<% if false -%>
+							<!--
+              <br/><br/>
+              <span class="blackBold">Credit Card Price: <%= number_to_currency @item.price_cc %></span><br/><br/>
+							-->
+							<% end -%>
+
+              <table border="0" cellspacing="5" cellpadding="0" width="100%">
+                <tr>
+                  <td>
+                    <%= link_to "", "/products/add_to_cart/#{@item.id}", :class => "button center btAddToCart" %>
+                  </td>
+                </tr>
+              </table>
+            </center>
+          </div>
+
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="blockSpacerRightColumn"></div>

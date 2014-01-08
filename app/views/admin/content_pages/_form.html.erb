@@ -1,0 +1,39 @@
+
+<% form_for @page, :url => url do |f| -%>
+  <%= f.error_messages %>
+
+  <table class="form">
+    <tr>
+      <td class="label">URL:</td>
+      <td class="field"><%= f.text_field :url, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">Name:</td>
+      <td class="field"><%= f.text_field :name, :class => "f-input" %></td>
+    </tr>
+    <tr>
+      <td class="label">HEAD Title:</td>
+      <td class="field"><%= f.text_field :meta_title, :class => "f-input" %></td>
+    </tr>
+
+		<% if false %>
+	    <tr>
+	      <td class="label">META Keywords:</td>
+	      <td class="field"><%= f.text_area :meta_keywords, :rows => 5, :class => "f-input" %></td>
+	    </tr>
+	    <tr>
+	      <td class="label">META Description:</td>
+	      <td class="field"><%= f.text_area :meta_description, :rows => 5, :class => "f-input" %></td>
+	    </tr>
+		<% end %>
+
+  </table>
+
+  <p><%= f.submit "Submit" %><p>
+  <%= link_to "Back To List", { :action => "list" }, :class => "action-link-text back" %>
+  <% unless @page.new_record? -%>
+    <%= link_to "View", { :action => "view", :id => @page }, :class => "action-link-text view" %>
+  <% end -%>
+  <div class="clear"></div>
+
+<% end -%>

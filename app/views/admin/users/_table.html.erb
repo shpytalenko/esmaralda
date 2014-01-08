@@ -1,0 +1,52 @@
+
+<% if @users_count > 0 -%>
+  <p><%= pluralize(@users_count, "user") %> found</p>
+
+  <form id="items_form" class="items">
+  <table id="items_table" class="items">
+    <thead>
+      <tr>
+        <th><input type="checkbox" class="checkAll" /></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :first_name, :as => "First Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :last_name, :as => "Last Name" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :email, :as => "E-mail" %></th>
+        <th><%= order @search, :params => { :action => "list" }, :params_scope => :search, :by => :is_active, :as => "Active" %></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="items_table_tbody">
+      <% for user in @users -%>
+        <tr id="items_table_<%= user.id %>">
+          <td class="a-center"><%= check_box_tag "id[]", user.id, false, { :id => nil } %></td>
+          <td><%=h user.first_name %></td>
+          <td><%=h user.last_name %></td>
+          <td><%= auto_link user.email, :all, :target => "_blank" %></td>
+          <td class="a-center"><%= yes_no(user.is_active) %></td>
+          <td style="width: 65px;">
+            <%= link_to "", { :action => "view", :id => user }, :class => "action-link view", :title => "View" %>
+            <%= link_to "", { :action => "edit", :id => user }, :class => "action-link edit", :title => "Edit" %>
+            <%= link_to "", { :action => "delete", :id => user }, :class => "action-link delete", :title => "Delete" %>
+            <div class="clear"></div>
+          </td>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+
+  <p class="pagination">
+    Per page: <%= select("users", "per_page", [[5, 5], [10, 10], [25, 25], [50, 50], [100, 100]], {} , { :class => "nowidth", :onchange => "changePerPage('#{ url_for(:action => 'list') }', this.value);" } ) %>
+    <% if @users.total_pages > 1 -%>
+      &nbsp;&nbsp;&nbsp;
+      Pages: <%= will_paginate @users, :container => false, :params => { :action => "list" } %>
+    <% end -%>
+  </p>
+
+  <p>
+    With selected:
+    <%= link_to_remote "Activate", :url => { :action => 'activate', :is_active => 1 }, :with => 'jQuery("#items_form :checkbox").serialize()' %> /
+    <%= link_to_remote "Deactivate", :url => { :action => 'activate', :is_active => 0 }, :with => 'jQuery("#items_form :checkbox").serialize()' %>
+  </p>
+  </form>
+<% else -%>
+  <p>DATA NOT FOUND...</p>
+<% end -%>
