@@ -7,9 +7,8 @@ require 'rake'
 #require 'rake/testtask'
 #require 'rake/rdoctask'
 
-require 'rake'
-require 'rake/testtask'
 require 'rdoc/task'
+require 'rake/testtask'
 require 'tasks/rails'
 
 #require 'tasks/rails'

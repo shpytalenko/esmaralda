@@ -6,6 +6,8 @@ class UsersController < ApplicationController
   
   def signup_submit
     @user = User.new(params[:user])
+    @user.state = params[:state]
+    #binding.pry
     if @user.save
       #flash[:notice] = "Registration sucessfull."
       render :update do |page| page.redirect_to root_url end
@@ -23,6 +25,7 @@ class UsersController < ApplicationController
   
   def profile_update
     @user = current_user
+    @user.state = params[:state]
     if @user.update_attributes(params[:user])
       #flash[:notice] = "Successfully updated profile."
       render :update do |page| page.redirect_to root_url end
